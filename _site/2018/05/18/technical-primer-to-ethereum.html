@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45405999-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-45405999-1');
+  </script>
+  <title>
+    Technical primer to Ethereum - Kaizen Coder
+    
+  </title>
+
+  <meta name="description" content="I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/home/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/home/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/home/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/home/2018/05/18/technical-primer-to-ethereum.html">
+  <link rel="alternate" type="application/rss+xml" title="Kaizen Coder" href="/home/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/home/">Kaizen Coder</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/home/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/home/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/home/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/home/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+  <header class="masthead">
+    
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Technical primer to Ethereum</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Srinivasan</a>
+              on May 18, 2018 &middot; <span class="reading-time" title="Estimated read time">
+  
+   10 mins  read </span>
+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ecosystem that is catching up fast among the developer community. In this post I will explain the technology behind Ethereum so that we can get started with developing with Ethereum. This assumes you have technology background and basic understanding of blockchain so that we can discuss the Ethereum implementation.</p>
+
+<h2 id="first-things-first">First things first</h2>
+
+<p>Blockchain provides a <strong>de-centralized</strong>, <strong>peer to peer</strong>  network where digital assets can be transferred from one peer to another. The major problem we face in a de-centralized network is who will verify the validity of all the <strong>transactions</strong>  taking place? The short answer is <strong>everyone.</strong></p>
+
+<p>Imagine a document with some information . Each person in the network keeps a copy of the same document. If there is an update in the document, it is propagated across the network and everyone updates their own copy of the document. Lets say a new person comes with different content in the document, then all the others can verify their copy and detect that the new person is lying and kick him out of the network. This is basically how a blockchain works.</p>
+
+<p>First we need to understand few basic terms to get started.</p>
+
+<h3 id="hash">Hash</h3>
+
+<p>We can use a cryptographic hash function(SHA256) to convert any string to its equivalent hash. The hash has two unique properties:</p>
+
+<ol>
+  <li>
+    <p>The hash produced has <strong>one to one mapping</strong> with the input string. The same input always produces the same unique hash and no other input can have the same hash.</p>
+  </li>
+  <li>
+    <p>Even a <strong>small change</strong> in the input string will lead to a <strong>large change</strong>  in the output hash and thus the input can be easily validated.</p>
+  </li>
+</ol>
+
+<h3 id="transaction">Transaction</h3>
+
+<p>The process by which assets are moved from one party to another in the network is known as Transaction. All transactions are recorded and permanently stored.Lets say A wants to transfer 5 Ether to B. Then this is a transaction in the network.</p>
+
+<h3 id="block">Block</h3>
+
+<p>Many transactions are combined together to form a block. Each block consists a unique <strong>hash</strong> which identifies it in the network. A block is chained to previous block using the hash of the previous block.</p>
+
+<h3 id="genesis-block">Genesis Block</h3>
+
+<p>The initial block or state of the blockchain that is agreed upon by all the nodes in the network.</p>
+
+<h3 id="blockchain">Blockchain</h3>
+
+<p>As the transactions are added many blocks are created and then they are chained together using their hashes into blockchain network.</p>
+
+<h3 id="proof-of-work">Proof of work</h3>
+
+<p>A <strong>proof of work</strong>  is a piece of data which is difficult (costly, time-consuming) to produce but easy for others to verify and which satisfies certain requirements. When there is a transaction in the network, any node that tries to process the transaction should solve a cryptographic puzzle for it to be accepted to the block. This is known as proof of work. The work that is to be performed can be done only by trial and error and this has to be performed for any valid transaction in the network before it can become part of the blockchain.</p>
+
+<h3 id="mining">Mining</h3>
+
+<p>The process of processing a transaction and adding it to the block by carrying out the proof of work is known as mining. The miners(nodes) get the rewards of the transaction once the transaction is accepted as part of the blockchain.</p>
+
+<h3 id="merkle-tree">Merkle Tree</h3>
+
+<p>A <strong>Merkle tree</strong>  is a tree in which every non-leaf node is labelled with the hash of the labels of its child nodes. We can verify that the data blocks received from other nodes are received undamaged and unaltered, and even to check that the other nodes do not lie and send fake blocks.</p>
+
+<h3 id="working">Working</h3>
+
+<p>We can now move on to basic working of a blockchain.</p>
+
+<ol>
+  <li>
+    <p>Each node starts with genesis block and builds its way up to the “current state” of the blockchain. When it receives a new block each node verifies its hash and thus validates if its a valid block or not and keeps building the chain.</p>
+  </li>
+  <li>
+    <p>Once there is a transaction in the network, the miner mines it by generating the required proof of work. Then the miner adds it to his copy of the network and <strong>propagates</strong>  the change to the nearby nodes.</p>
+  </li>
+  <li>
+    <p>All the nodes which receives it will validate the proof of work and then add it to their respective copies. If it is not valid, then the block is not added to the chain.</p>
+  </li>
+  <li>
+    <p>When there is a conflict in the network , then the “longest chain rule” is applied to resolve it. Lets say two miners claim the same block and both have valid proof of work. Then the longest chain rule is applied which is whichever miner has the longest chain of blocks will be taken as the winner and that is added to the blockchain.</p>
+  </li>
+</ol>
+
+<h2 id="ethereum">Ethereum</h2>
+
+<p><img src="https://cdn-images-1.medium.com/max/16000/1*AReX8uZOZKpGcvuUjogh0g.png" alt="" /></p>
+
+<p>Now that you have got a grasp of blockchain lets move ahead with Ethereum. Ethereum is a <strong>decentralized platform that</strong> allows us to write applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference. It consists of Ethereum Virtual Machine(EVM) which provides the container in which all the smart contracts can be executed.</p>
+
+<h3 id="smart-contracts">Smart contracts</h3>
+
+<p>Ethereum allows us to write applications on the blockchain and this applications are known as smart contracts. These smart contracts reside on the blockchain and they are <strong>immutable</strong>  in nature, ie. the code cannot be deleted or modified in the blockchain once it is deployed. This can be written using Solidity or other languages, but the most preferred is solidity. It is a turing complete language.</p>
+
+<h3 id="ether">Ether</h3>
+
+<p>Ether is the cryptocurrency used in the Ethereum blockchain.</p>
+
+<h3 id="accounts">Accounts</h3>
+
+<p>In Ethereum, the state is made up of objects called “accounts”, with each account having a 20-byte address and state transitions being direct transfers of value and information between accounts. There are two types of accounts in Ethereum:</p>
+
+<ul>
+  <li>
+    <p><strong>Externally owned accounts :</strong> These accounts are owned by users, controlled by private keys. An externally owned account has no code, and one can send messages from an externally owned account by creating and signing a transaction.</p>
+  </li>
+  <li>
+    <p><strong>Contract accounts:</strong> These accounts are owned by contract code. In a contract account, every time the contract account receives a message its code activates, allowing it to read and write to internal storage and send other messages or create contracts in turn.</p>
+  </li>
+</ul>
+
+<h3 id="gas">Gas</h3>
+
+<p>As smart contracts are turing complete any infinity loop or other code can be written and the blockchain can be crashed. To prevent from such attacks Ethereum uses a concept called gas. Gas is nothing but some transaction cost which is paid to execute the transaction using Ether(basic currency in Ethereum chain). Each instruction requires some gas to be executed and the gas is sent along with any call that needs to modify the blockchain.</p>
+
+<h3 id="dapps">DAPPS</h3>
+
+<p>These are distributed apps that can be built using the smart contracts and providing an interface for the users(accounts). Different kinds of applications can be developed which will interact with smart contracts residing in the blockchain.</p>
+
+<h3 id="basic-workflow-using-ethereum">Basic Workflow using Ethereum</h3>
+
+<p>We can discuss a basic workflow in Ethereum network for better understanding of how all these concepts work together in unison.</p>
+
+<ol>
+  <li>
+    <p>We can write smart contracts and deploy it to Ethereum network. Once deployed these contracts cannot be changed.</p>
+  </li>
+  <li>
+    <p>Any account or another smart contract in the network can execute these smart contracts functions through transactions.</p>
+  </li>
+  <li>
+    <p>The smart contracts can be called and executed by sending transactions to the contract. These transactions cost <strong>gas</strong> and a certain gas should also be sent along with the transaction.</p>
+  </li>
+  <li>
+    <p>Sometimes we just need to know the state of some contract without modifying the blockchain. These are known as <strong>calls and they do not cost any gas.</strong></p>
+  </li>
+  <li>
+    <p>We can build various Dapps by executing the smart contracts using transactions and calls , thus allowing the user to directly interact the smart contract in different ways.</p>
+  </li>
+</ol>
+
+<p>I believe this post provides basic understanding of the blockchain and Ethereum. In my next post I will provide a detailed guide to getting started with building Dapps using Ethereum.</p>
+
+<p><em>If you liked this story, feel free to reach out to me at <a href="http://karthickpdy.me/">http://karthickpdy.me/</a>.</em></p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          
+          <a class="btn btn-primary float-right" href="/home/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html"
+            data-toggle="tooltip" data-placement="top" title="The one thing between you and your dream job — coding interview!">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.twitter.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/srinivasan.chandramouli.7">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.linkedin.com/in/srinivasanchandramouli">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Srinivasan 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/home/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/home/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/home/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/home/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>

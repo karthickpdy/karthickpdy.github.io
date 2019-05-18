@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/home/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/home/" rel="alternate" type="text/html" /><updated>2019-05-18T20:18:56+05:30</updated><id>http://localhost:4000/home/feed.xml</id><title type="html">Kaizen Coder</title><subtitle>Become a better developer, day by day!</subtitle><author><name>Srinivasan</name></author><entry><title type="html">The one thing between you and your dream job — coding interview!</title><link href="http://localhost:4000/home/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html" rel="alternate" type="text/html" title="The one thing between you and your dream job — coding interview!" /><published>2018-08-13T00:00:00+05:30</published><updated>2018-08-13T00:00:00+05:30</updated><id>http://localhost:4000/home/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview</id><content type="html" xml:base="http://localhost:4000/home/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html">&lt;p&gt;A recruiter calls you for a position with your dream company. You get extremely excited and ask about their recruiting process. He replies saying “Its nothing big, you will have 5 coding rounds with our senior tech team, just the standard whiteboard coding round”. You blatantly lie and end the conversation by saying you love your current job and will try again at a later point in time. If you can relate to this situation please keep reading.&lt;/p&gt;
+
+&lt;p&gt;I have met so many top class software developers who are smart, resourceful, reliable and know the knack of getting the job done despite a lot of dependencies. But the mere thought of whiteboard coding interviews strikes fear in their hearts. Most of these people believe that they can never crack such type of interviews and it is only for the rockstar kids who do competitive programming from age 12. Nothing is farther from the truth. I would like to bust such myths and show you a clear path to clearing these interviews.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;p&gt;First, we need to understand why companies conduct these types of interviews.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Strong Filter to get good employees —&lt;/strong&gt; The people who clear coding interviews can be of two types. The extremely smart people who do not need any preparation and can clear such interviews on the fly. The people who take time to prepare and practice DS and alogs and clear the interviews. The former is an extremely smart person and the latter is a person who can get the job done through perseverance and both of these are the hallmarks of a good employee.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Clear Signals—&lt;/strong&gt; Knowledge based interviews are notorious for giving ambiguous signals. It is very hard to judge a candidate based on his knowledge of an obscure feature of some technology. But in coding interviews, in 1 hour you get a clear signal regarding the candidate. Based on the performance in the coding round, you can easily make a hire/no-hire call.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Indicator of skills—&lt;/strong&gt; Most of the companies which conduct these interviews need people who can work on any tech stack and cutting-edge problems. So they need an objective way to determine the skills of a candidate irrespective of the stellar resume(most people who apply to such companies have a stellar resume). Coding interviews test the problem-solving skills of a candidate which arguably indicates his ability to tackle new problems.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Experience independent—&lt;/strong&gt; Coding interviews suits people of all experience levels. Anyone who wants to join such companies is expected to have a working knowledge of data structures and algorithms and thus it can be used as an objective measure to judge the candidates across levels.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how&quot;&gt;How?&lt;/h2&gt;
+
+&lt;p&gt;Let’s see how to go about preparing for these interviews.&lt;/p&gt;
+
+&lt;h3 id=&quot;pick-a-language&quot;&gt;Pick a language&lt;/h3&gt;
+
+&lt;p&gt;The language you choose does not matter! As long as you are comfortable with coding in the chosen language and it has support for data structures and algos(STL, Collections) you are good to go.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gotcha —&lt;/strong&gt;  The biggest mistake I see people make here is picking a fancy language to impress the interviewer and struggle with implementation. It is like digging your own grave. The only thing that matters is how you can implement a solution using the language of your choice and not the fanciness of the language.&lt;/p&gt;
+
+&lt;h3 id=&quot;exploit-the-language-you-picked&quot;&gt;Exploit the language you picked&lt;/h3&gt;
+
+&lt;p&gt;You need to be extremely comfortable using the inbuilt DS and Algos in the language you picked. It can be STL or Collections or anything else. Command over these allows you to focus on solving the problem by picking and using the right constructs and churn out code fast in an interview setting.&lt;/p&gt;
+
+&lt;p&gt;Timeline: 1 week.&lt;/p&gt;
+
+&lt;h3 id=&quot;get-familiar-with-theory&quot;&gt;Get familiar with theory&lt;/h3&gt;
+
+&lt;p&gt;There are only a handful of things you need to know for coding interviews.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;DS — Array, Stack, Queue, Linked List, Tree, Hash, Graph&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Algos — Searching, sorting, BFS, DFS, Topological sort&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The things you need to understand are the different implementations, time and space complexities and when to/not-to use them. I would highly recommend &lt;a href=&quot;https://amzn.to/2M7fS3S&quot;&gt;The algorithm design manual&lt;/a&gt; for this purpose.&lt;/p&gt;
+
+&lt;p&gt;Timeline : 2-3 weeks based on previous knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gotcha —&lt;/strong&gt; Do not skip time and space complexities. This is one of the biggest expectations in a coding interview. You are expected to analyse and consider tradeoffs between different implementations and to do that you need to understand the time/space complexities for all the things.&lt;/p&gt;
+
+&lt;h3 id=&quot;get-hands-on&quot;&gt;Get Hands-on&lt;/h3&gt;
+
+&lt;p&gt;Now that you have a solid foundation of DS and algos you can jump into solving problems. You can use &lt;a href=&quot;https://leetcode.com/&quot;&gt;Leetcode&lt;/a&gt; and &lt;a href=&quot;http://interviewbit.com&quot;&gt;InterviewBit&lt;/a&gt; for this purpose. They both allow you to solve problems grouped by type and have a wide array of problems. Do not concentrate on quantity but quality. Try to solve the problem on your own and if you notice patterns among different problems note in down and use these notes to refer again later. If you prefer a book for problems you can use &lt;a href=&quot;https://amzn.to/2MCpyR3&quot;&gt;Cracking the coding interview&lt;/a&gt; or &lt;a href=&quot;https://amzn.to/2McLdTs&quot;&gt;Data Structures and Algorithms Made Easy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Timeline : 8–12 weeks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gotcha —&lt;/strong&gt;  The worst thing you can do here is trying to learn the problems by reading from somewhere else once you hit a roadblock. However tempting it may be, please avoid it. Do it only after trying for more than 2 hours. It gives you the satisfaction of learning something but, in reality, you cannot solve it when you encounter it somewhere.&lt;/p&gt;
+
+&lt;h3 id=&quot;mock-interviews&quot;&gt;Mock interviews&lt;/h3&gt;
+
+&lt;p&gt;If you had followed the above steps correctly, you would be familiar with major types of problems and would be able to solve most problems you encounter in the interview. But whatever you have done till now and the interview setting is totally different. So to get familiar with the interview setting try practicing mock interviews. You can use &lt;a href=&quot;https://pramp.com/promo/srinivasan&quot;&gt;Pramp&lt;/a&gt;(use this link to get additional free interviews) for free mock interviews with peers. If you want to have a mock interview by professional and detailed feedback please &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;get in touch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is basically a step by step recipe to crack the interviews. I followed the same path and most of the people I know also have done the same. Its just hard work and has nothing to do with previous knowledge or smartness.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
+
+&lt;p&gt;I am planning to write a series of posts discussing various topics like Stack, Queue, Trees, etc. one by one and dissecting the various types of problems in each of those. Please follow me to get notified as soon as they are published.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">A recruiter calls you for a position with your dream company. You get extremely excited and ask about their recruiting process. He replies saying “Its nothing big, you will have 5 coding rounds with our senior tech team, just the standard whiteboard coding round”. You blatantly lie and end the conversation by saying you love your current job and will try again at a later point in time. If you can relate to this situation please keep reading.</summary></entry><entry><title type="html">Technical primer to Ethereum</title><link href="http://localhost:4000/home/2018/05/18/technical-primer-to-ethereum.html" rel="alternate" type="text/html" title="Technical primer to Ethereum" /><published>2018-05-18T00:00:00+05:30</published><updated>2018-05-18T00:00:00+05:30</updated><id>http://localhost:4000/home/2018/05/18/technical-primer-to-ethereum</id><content type="html" xml:base="http://localhost:4000/home/2018/05/18/technical-primer-to-ethereum.html">&lt;p&gt;I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ecosystem that is catching up fast among the developer community. In this post I will explain the technology behind Ethereum so that we can get started with developing with Ethereum. This assumes you have technology background and basic understanding of blockchain so that we can discuss the Ethereum implementation.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-things-first&quot;&gt;First things first&lt;/h2&gt;
+
+&lt;p&gt;Blockchain provides a &lt;strong&gt;de-centralized&lt;/strong&gt;, &lt;strong&gt;peer to peer&lt;/strong&gt;  network where digital assets can be transferred from one peer to another. The major problem we face in a de-centralized network is who will verify the validity of all the &lt;strong&gt;transactions&lt;/strong&gt;  taking place? The short answer is &lt;strong&gt;everyone.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Imagine a document with some information . Each person in the network keeps a copy of the same document. If there is an update in the document, it is propagated across the network and everyone updates their own copy of the document. Lets say a new person comes with different content in the document, then all the others can verify their copy and detect that the new person is lying and kick him out of the network. This is basically how a blockchain works.&lt;/p&gt;
+
+&lt;p&gt;First we need to understand few basic terms to get started.&lt;/p&gt;
+
+&lt;h3 id=&quot;hash&quot;&gt;Hash&lt;/h3&gt;
+
+&lt;p&gt;We can use a cryptographic hash function(SHA256) to convert any string to its equivalent hash. The hash has two unique properties:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The hash produced has &lt;strong&gt;one to one mapping&lt;/strong&gt; with the input string. The same input always produces the same unique hash and no other input can have the same hash.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Even a &lt;strong&gt;small change&lt;/strong&gt; in the input string will lead to a &lt;strong&gt;large change&lt;/strong&gt;  in the output hash and thus the input can be easily validated.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;transaction&quot;&gt;Transaction&lt;/h3&gt;
+
+&lt;p&gt;The process by which assets are moved from one party to another in the network is known as Transaction. All transactions are recorded and permanently stored.Lets say A wants to transfer 5 Ether to B. Then this is a transaction in the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;block&quot;&gt;Block&lt;/h3&gt;
+
+&lt;p&gt;Many transactions are combined together to form a block. Each block consists a unique &lt;strong&gt;hash&lt;/strong&gt; which identifies it in the network. A block is chained to previous block using the hash of the previous block.&lt;/p&gt;
+
+&lt;h3 id=&quot;genesis-block&quot;&gt;Genesis Block&lt;/h3&gt;
+
+&lt;p&gt;The initial block or state of the blockchain that is agreed upon by all the nodes in the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;blockchain&quot;&gt;Blockchain&lt;/h3&gt;
+
+&lt;p&gt;As the transactions are added many blocks are created and then they are chained together using their hashes into blockchain network.&lt;/p&gt;
+
+&lt;h3 id=&quot;proof-of-work&quot;&gt;Proof of work&lt;/h3&gt;
+
+&lt;p&gt;A &lt;strong&gt;proof of work&lt;/strong&gt;  is a piece of data which is difficult (costly, time-consuming) to produce but easy for others to verify and which satisfies certain requirements. When there is a transaction in the network, any node that tries to process the transaction should solve a cryptographic puzzle for it to be accepted to the block. This is known as proof of work. The work that is to be performed can be done only by trial and error and this has to be performed for any valid transaction in the network before it can become part of the blockchain.&lt;/p&gt;
+
+&lt;h3 id=&quot;mining&quot;&gt;Mining&lt;/h3&gt;
+
+&lt;p&gt;The process of processing a transaction and adding it to the block by carrying out the proof of work is known as mining. The miners(nodes) get the rewards of the transaction once the transaction is accepted as part of the blockchain.&lt;/p&gt;
+
+&lt;h3 id=&quot;merkle-tree&quot;&gt;Merkle Tree&lt;/h3&gt;
+
+&lt;p&gt;A &lt;strong&gt;Merkle tree&lt;/strong&gt;  is a tree in which every non-leaf node is labelled with the hash of the labels of its child nodes. We can verify that the data blocks received from other nodes are received undamaged and unaltered, and even to check that the other nodes do not lie and send fake blocks.&lt;/p&gt;
+
+&lt;h3 id=&quot;working&quot;&gt;Working&lt;/h3&gt;
+
+&lt;p&gt;We can now move on to basic working of a blockchain.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each node starts with genesis block and builds its way up to the “current state” of the blockchain. When it receives a new block each node verifies its hash and thus validates if its a valid block or not and keeps building the chain.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once there is a transaction in the network, the miner mines it by generating the required proof of work. Then the miner adds it to his copy of the network and &lt;strong&gt;propagates&lt;/strong&gt;  the change to the nearby nodes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All the nodes which receives it will validate the proof of work and then add it to their respective copies. If it is not valid, then the block is not added to the chain.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When there is a conflict in the network , then the “longest chain rule” is applied to resolve it. Lets say two miners claim the same block and both have valid proof of work. Then the longest chain rule is applied which is whichever miner has the longest chain of blocks will be taken as the winner and that is added to the blockchain.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;ethereum&quot;&gt;Ethereum&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/16000/1*AReX8uZOZKpGcvuUjogh0g.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you have got a grasp of blockchain lets move ahead with Ethereum. Ethereum is a &lt;strong&gt;decentralized platform that&lt;/strong&gt; allows us to write applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference. It consists of Ethereum Virtual Machine(EVM) which provides the container in which all the smart contracts can be executed.&lt;/p&gt;
+
+&lt;h3 id=&quot;smart-contracts&quot;&gt;Smart contracts&lt;/h3&gt;
+
+&lt;p&gt;Ethereum allows us to write applications on the blockchain and this applications are known as smart contracts. These smart contracts reside on the blockchain and they are &lt;strong&gt;immutable&lt;/strong&gt;  in nature, ie. the code cannot be deleted or modified in the blockchain once it is deployed. This can be written using Solidity or other languages, but the most preferred is solidity. It is a turing complete language.&lt;/p&gt;
+
+&lt;h3 id=&quot;ether&quot;&gt;Ether&lt;/h3&gt;
+
+&lt;p&gt;Ether is the cryptocurrency used in the Ethereum blockchain.&lt;/p&gt;
+
+&lt;h3 id=&quot;accounts&quot;&gt;Accounts&lt;/h3&gt;
+
+&lt;p&gt;In Ethereum, the state is made up of objects called “accounts”, with each account having a 20-byte address and state transitions being direct transfers of value and information between accounts. There are two types of accounts in Ethereum:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Externally owned accounts :&lt;/strong&gt; These accounts are owned by users, controlled by private keys. An externally owned account has no code, and one can send messages from an externally owned account by creating and signing a transaction.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Contract accounts:&lt;/strong&gt; These accounts are owned by contract code. In a contract account, every time the contract account receives a message its code activates, allowing it to read and write to internal storage and send other messages or create contracts in turn.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gas&quot;&gt;Gas&lt;/h3&gt;
+
+&lt;p&gt;As smart contracts are turing complete any infinity loop or other code can be written and the blockchain can be crashed. To prevent from such attacks Ethereum uses a concept called gas. Gas is nothing but some transaction cost which is paid to execute the transaction using Ether(basic currency in Ethereum chain). Each instruction requires some gas to be executed and the gas is sent along with any call that needs to modify the blockchain.&lt;/p&gt;
+
+&lt;h3 id=&quot;dapps&quot;&gt;DAPPS&lt;/h3&gt;
+
+&lt;p&gt;These are distributed apps that can be built using the smart contracts and providing an interface for the users(accounts). Different kinds of applications can be developed which will interact with smart contracts residing in the blockchain.&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-workflow-using-ethereum&quot;&gt;Basic Workflow using Ethereum&lt;/h3&gt;
+
+&lt;p&gt;We can discuss a basic workflow in Ethereum network for better understanding of how all these concepts work together in unison.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;We can write smart contracts and deploy it to Ethereum network. Once deployed these contracts cannot be changed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Any account or another smart contract in the network can execute these smart contracts functions through transactions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The smart contracts can be called and executed by sending transactions to the contract. These transactions cost &lt;strong&gt;gas&lt;/strong&gt; and a certain gas should also be sent along with the transaction.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sometimes we just need to know the state of some contract without modifying the blockchain. These are known as &lt;strong&gt;calls and they do not cost any gas.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We can build various Dapps by executing the smart contracts using transactions and calls , thus allowing the user to directly interact the smart contract in different ways.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I believe this post provides basic understanding of the blockchain and Ethereum. In my next post I will provide a detailed guide to getting started with building Dapps using Ethereum.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ecosystem that is catching up fast among the developer community. In this post I will explain the technology behind Ethereum so that we can get started with developing with Ethereum. This assumes you have technology background and basic understanding of blockchain so that we can discuss the Ethereum implementation.</summary></entry></feed>

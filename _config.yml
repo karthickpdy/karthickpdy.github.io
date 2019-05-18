@@ -1,0 +1,16 @@
+title: Kaizen Coder
+email: karthickpdy@gmail.com
+description: Become a better developer, day by day!
+author: Srinivasan
+baseurl: /home
+url: 'http://karthickpdy.me/'
+twitter_username: karthickpdy
+github_username: karthickpdy
+facebook_username: "srinivasan.chandramouli.7"
+linkedin_username: srinivasanchandramouli
+markdown: kramdown
+paginate: 5
+paginate_path: '/posts/page:num/'
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
