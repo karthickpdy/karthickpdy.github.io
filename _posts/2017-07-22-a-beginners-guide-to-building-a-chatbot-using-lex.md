@@ -157,4 +157,4 @@ Thats it! Our bot is now ready. You can **build** the bot and test it, and the c
 
 Thanks for reading my post. Hope you have learned something from it. Planning to write a follow-up to this, which allows us to integrate this bot with Facebook or Slack. Feel free to leave your comments and feedback.
 
-*If you liked this story, feel free to reach out to me at [http://karthickpdy.me/](http://karthickpdy.me/).*
+*If you liked this story, feel free to reach out to me at [https://kaizencoder.com/](https://kaizencoder.com/).*

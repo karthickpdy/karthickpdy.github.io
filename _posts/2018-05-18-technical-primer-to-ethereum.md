@@ -107,4 +107,4 @@ We can discuss a basic workflow in Ethereum network for better understanding of 
 
 I believe this post provides basic understanding of the blockchain and Ethereum. In my next post I will provide a detailed guide to getting started with building Dapps using Ethereum.
 
-*If you liked this story, feel free to reach out to me at [http://karthickpdy.me/](http://karthickpdy.me/).*
+*If you liked this story, feel free to reach out to me at [https://kaizencoder.com/](https://kaizencoder.com/).*
