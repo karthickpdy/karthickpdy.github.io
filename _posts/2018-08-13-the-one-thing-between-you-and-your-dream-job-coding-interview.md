@@ -59,7 +59,7 @@ Timeline : 8–12 weeks.
 
 ### Mock interviews
 
-If you had followed the above steps correctly, you would be familiar with major types of problems and would be able to solve most problems you encounter in the interview. But whatever you have done till now and the interview setting is totally different. So to get familiar with the interview setting try practicing mock interviews. You can use [Pramp](https://pramp.com/promo/srinivasan)(use this link to get additional free interviews) for free mock interviews with peers. If you want to have a mock interview by professional and detailed feedback please [get in touch](https://kaizencoder.com/).
+If you had followed the above steps correctly, you would be familiar with major types of problems and would be able to solve most problems you encounter in the interview. But whatever you have done till now and the interview setting is totally different. So to get familiar with the interview setting try practicing mock interviews. You can use [Pramp](https://pramp.com/promo/srinivasan)(use this link to get additional free interviews) for free mock interviews with peers. If you want to have a mock interview by professional and detailed feedback please [get in touch](https://kaizencoder.com/contact).
 
 This is basically a step by step recipe to crack the interviews. I followed the same path and most of the people I know also have done the same. Its just hard work and has nothing to do with previous knowledge or smartness.
 
@@ -67,4 +67,4 @@ This is basically a step by step recipe to crack the interviews. I followed the 
 
 I am planning to write a series of posts discussing various topics like Stack, Queue, Trees, etc. one by one and dissecting the various types of problems in each of those. Please follow me to get notified as soon as they are published.
 
-*If you liked this story, feel free to reach out to me at [https://kaizencoder.com/](https://kaizencoder.com/).*
+*If you liked this story, feel free to reach out to me at [https://kaizencoder.com/](https://kaizencoder.com/contact).*

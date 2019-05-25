@@ -86,4 +86,4 @@ If all well well, Facebook messenger will be able to communicate with our Lex Bo
 </p>
 
 
-*If you liked this story, feel free to reach out to me at [Kaizen Coder](https://kaizencoder.com/).*
+*If you liked this story, feel free to reach out to me at [Kaizen Coder](https://kaizencoder.com/contact).*

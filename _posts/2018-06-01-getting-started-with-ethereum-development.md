@@ -228,4 +228,4 @@ Now we are all set to run and test our Dapp. Use the command npm run dev to star
 
 For the curious, the decimal points in Ether balance is changing because of the gas usage for every transaction. The complete code is provided [here](https://github.com/karthickpdy/EthereumStockExchange). Feel free to play around with it. Hope the tutorial was useful and you learnt something from it. Cheers!
 
-*If you liked this story, feel free to reach out to me at [https://kaizencoder.com/](https://kaizencoder.com/).*
+*If you liked this story, feel free to reach out to me at [https://kaizencoder.com/](https://kaizencoder.com/contact).*
