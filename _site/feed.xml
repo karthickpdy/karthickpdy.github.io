@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-19T17:26:04+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kaizen Coder</title><subtitle>Become a better developer, day by day!</subtitle><author><name>Srinivasan</name></author><entry><title type="html">The one thing between you and your dream job — coding interview!</title><link href="http://localhost:4000/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html" rel="alternate" type="text/html" title="The one thing between you and your dream job — coding interview!" /><published>2018-08-13T00:00:00+05:30</published><updated>2018-08-13T00:00:00+05:30</updated><id>http://localhost:4000/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview</id><content type="html" xml:base="http://localhost:4000/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html">&lt;p&gt;A recruiter calls you for a position with your dream company. You get extremely excited and ask about their recruiting process. He replies saying “Its nothing big, you will have 5 coding rounds with our senior tech team, just the standard whiteboard coding round”. You blatantly lie and end the conversation by saying you love your current job and will try again at a later point in time. If you can relate to this situation please keep reading.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-25T09:54:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kaizen Coder</title><subtitle>Become a better developer, day by day!</subtitle><author><name>Srinivasan</name></author><entry><title type="html">The one thing between you and your dream job — coding interview!</title><link href="http://localhost:4000/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html" rel="alternate" type="text/html" title="The one thing between you and your dream job — coding interview!" /><published>2018-08-13T00:00:00+05:30</published><updated>2018-08-13T00:00:00+05:30</updated><id>http://localhost:4000/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview</id><content type="html" xml:base="http://localhost:4000/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html">&lt;p&gt;A recruiter calls you for a position with your dream company. You get extremely excited and ask about their recruiting process. He replies saying “Its nothing big, you will have 5 coding rounds with our senior tech team, just the standard whiteboard coding round”. You blatantly lie and end the conversation by saying you love your current job and will try again at a later point in time. If you can relate to this situation please keep reading.&lt;/p&gt;
 
 &lt;p&gt;I have met so many top class software developers who are smart, resourceful, reliable and know the knack of getting the job done despite a lot of dependencies. But the mere thought of whiteboard coding interviews strikes fear in their hearts. Most of these people believe that they can never crack such type of interviews and it is only for the rockstar kids who do competitive programming from age 12. Nothing is farther from the truth. I would like to bust such myths and show you a clear path to clearing these interviews.&lt;/p&gt;
 
@@ -74,7 +74,264 @@
 
 &lt;p&gt;I am planning to write a series of posts discussing various topics like Stack, Queue, Trees, etc. one by one and dissecting the various types of problems in each of those. Please follow me to get notified as soon as they are published.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">A recruiter calls you for a position with your dream company. You get extremely excited and ask about their recruiting process. He replies saying “Its nothing big, you will have 5 coding rounds with our senior tech team, just the standard whiteboard coding round”. You blatantly lie and end the conversation by saying you love your current job and will try again at a later point in time. If you can relate to this situation please keep reading.</summary></entry><entry><title type="html">Technical primer to Ethereum</title><link href="http://localhost:4000/2018/05/18/technical-primer-to-ethereum.html" rel="alternate" type="text/html" title="Technical primer to Ethereum" /><published>2018-05-18T00:00:00+05:30</published><updated>2018-05-18T00:00:00+05:30</updated><id>http://localhost:4000/2018/05/18/technical-primer-to-ethereum</id><content type="html" xml:base="http://localhost:4000/2018/05/18/technical-primer-to-ethereum.html">&lt;p&gt;I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ecosystem that is catching up fast among the developer community. In this post I will explain the technology behind Ethereum so that we can get started with developing with Ethereum. This assumes you have technology background and basic understanding of blockchain so that we can discuss the Ethereum implementation.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">A recruiter calls you for a position with your dream company. You get extremely excited and ask about their recruiting process. He replies saying “Its nothing big, you will have 5 coding rounds with our senior tech team, just the standard whiteboard coding round”. You blatantly lie and end the conversation by saying you love your current job and will try again at a later point in time. If you can relate to this situation please keep reading.</summary></entry><entry><title type="html">Getting started with Ethereum development</title><link href="http://localhost:4000/2018/06/01/getting-started-with-ethereum-development.html" rel="alternate" type="text/html" title="Getting started with Ethereum development" /><published>2018-06-01T00:00:00+05:30</published><updated>2018-06-01T00:00:00+05:30</updated><id>http://localhost:4000/2018/06/01/getting-started-with-ethereum-development</id><content type="html" xml:base="http://localhost:4000/2018/06/01/getting-started-with-ethereum-development.html">&lt;p&gt;This is a follow up post to Ethereum technical primer where the basic concepts of Blockchain and Ethereum are explained. In this post we shall discuss in detail how to set up a development environment and how to build Dapps(Distributed Apps) using Ethereum smart contracts.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-dev-tools&quot;&gt;Installing Dev tools&lt;/h2&gt;
+
+&lt;h3 id=&quot;installing-testrpc&quot;&gt;Installing testrpc&lt;/h3&gt;
+
+&lt;p&gt;The easiest way to get started with setting up a local client is using &lt;a href=&quot;https://github.com/ethereumjs/testrpc&quot;&gt;testrpc&lt;/a&gt;. Testrpc simulates a client in your local machine where you can deploy and test your smart contracts. You can install it using the command&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g ethereumjs-testrpc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;installing-truffle&quot;&gt;Installing Truffle&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/trufflesuite/truffle&quot;&gt;Truffle&lt;/a&gt; is a Ethereum development framework. It allows us to easily develop smart contracts and deploy it in the network(testrpc). It also allows us to write tests for our smart contracts. I highly encourage you to go through the &lt;a href=&quot;http://truffleframework.com/docs/&quot;&gt;truffle documentation&lt;/a&gt; to understand it better. You can install truffle using the below command.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g truffle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;These two should be sufficient for us to get started.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-a-dapp&quot;&gt;Building a Dapp&lt;/h2&gt;
+
+&lt;p&gt;Now we can go ahead and start building a dapp. The example I will be showing is a small stock exchange where we can buy and sell stocks.&lt;/p&gt;
+
+&lt;h3 id=&quot;creating-project-in-truffle&quot;&gt;Creating project in Truffle&lt;/h3&gt;
+
+&lt;p&gt;Create a new directory StockExchange and create a new truffle project inside it. You can create a new project in truffle using the command below&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;truffle init webpack
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will create a new project with the following structure:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;app/&lt;/code&gt; - This directory contains the Frontend and UI(HTML, JS and CSS files).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;contracts/&lt;/code&gt; - This is a directory to put all your smart contracts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;migrations/&lt;/code&gt; - Contains migration and deployment files — we can deploy the smart contract and specify its initial state here.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;test/&lt;/code&gt; - Test files for testing your application and contracts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;truffle.js&lt;/code&gt; - your main Truffle configuration file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;webpack.config.js&lt;/code&gt; - You can configure your webpack settings.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;creating-smart-contract&quot;&gt;Creating smart contract&lt;/h3&gt;
+
+&lt;p&gt;We can create smart contracts using &lt;a href=&quot;https://solidity.readthedocs.io/en/develop/&quot;&gt;Solidity&lt;/a&gt;. Solidity is an high level language designed to create smart contracts on the Ethereum Virtual Machine(EVM). We can create a smart contract for StockExchange step by step.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a sol file named &lt;strong&gt;StockExchange.sol&lt;/strong&gt; in the &lt;strong&gt;contracts&lt;/strong&gt; folder in your project.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copy the contents from the below gist and add it to the file.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-solidity&quot;&gt;pragma solidity ^0.4.2;
+
+contract StockExchange {
+
+	mapping (address =&amp;gt; uint) balances;
+	uint holdings;
+
+	event Transaction(string _type, address indexed user);
+
+	function StockExchange() {
+		holdings = 10000;
+	}
+
+	function buy() payable{
+		if(msg.value == 1 ether){
+			balances[msg.sender] += 1;
+			holdings -= 1;
+			Transaction(&quot;Buy&quot;,msg.sender);
+		}
+	}
+
+	function sell(){
+		balances[msg.sender] -= 1;
+		holdings += 1;
+		msg.sender.transfer(1 ether);
+		Transaction(&quot;Sell&quot;,msg.sender);
+	}
+
+	function getBalance(address addr) returns(uint) {
+		return balances[addr];
+	}
+
+	function getHoldings() returns(uint) {
+		return holdings;
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;dissecting-the-smart-contract&quot;&gt;Dissecting the smart contract&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pragma solidity ^0.4.2;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;pragma&lt;/strong&gt; is used to specify the solidity version using which the smart contract compiles. This is to avoid backward compatibility issues.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mapping (address =&amp;gt; uint) balances;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;mapping&lt;/strong&gt; is similar to &lt;strong&gt;hashmap&lt;/strong&gt;where we can hold a key value pair. Here we use it to hold the balance for each account.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;uint holdings;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Holdings&lt;/strong&gt; is used to denote the stocks held by the company. uint denotes unsigned integer.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;event Transaction(string _type, address indexed user);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Events are used to publish a event from the smart contract to the outside world. Events can be listened from the Dapps , as soon as an event is fired the listener will get the contents emitted from the event. Here we emit a **Transaction event **with either “Buy” or “Sell” to indicate the type of Transaction and the address of the user who performed the transaction. The indexed keyword allows us to filter the events on the listener side.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function StockExchange() {
+  holdings = 10000;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;StockExchange() is a &lt;strong&gt;constructor&lt;/strong&gt; and we initialize holding with 10000 stocks.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function buy() payable{
+  if(msg.value == 1 ether){
+   balances[msg.sender] += 1;
+   holdings -= 1;
+   Transaction(&quot;Buy&quot;,msg.sender);
+  }
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Buy is a method which can be executed from Dapp. Notice the &lt;strong&gt;payable&lt;/strong&gt; keyword in the function. It allows the method to &lt;strong&gt;receive ether&lt;/strong&gt;. We can get who initiated the transaction using msg.sender. We can check how much ether is sent using msg.value. The other business logic is self explanatory and after the buy is completed we generate a &lt;strong&gt;Transaction event&lt;/strong&gt;of type&lt;strong&gt;“Buy”.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;msg.sender.transfer(1 ether);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You may have noticed the above statement in &lt;strong&gt;sell&lt;/strong&gt; method. This is used to send Ether directly to the sender from the smart contract.&lt;/p&gt;
+
+&lt;p&gt;Now that our smart contract is done, we need to modify the migration file to deploy this contract to the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;modifying-the-migration-file&quot;&gt;Modifying the migration file&lt;/h3&gt;
+
+&lt;p&gt;Go to migrations/deploy_contracts.js. Clear whatever it has and add the following code to it.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var StockExchange = artifacts.require(&quot;./StockExchange.sol&quot;);
+
+module.exports = function(deployer) {
+  deployer.deploy(StockExchange);
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is used to deploy the smart contract we created to the network(testrpc).&lt;/p&gt;
+
+&lt;h3 id=&quot;compiling-and-deploying-the-smart-contract&quot;&gt;Compiling and deploying the smart contract&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start running testrpc by typing testrpc in the terminal&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can compile the smart contract using truffle compile.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can deploy the smart contract using truffle migrate. This executes the migration script we wrote above.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that our backend is ready we can go ahead and create our interactions and UI.&lt;/p&gt;
+
+&lt;h3 id=&quot;interacting-with-smart-contracts&quot;&gt;Interacting with smart contracts&lt;/h3&gt;
+
+&lt;p&gt;Go to app/javascripts/app.js and copy paste the contents of &lt;a href=&quot;https://gist.github.com/karthickpdy/f35fad39daf5c035fd04b254068401f1&quot;&gt;this gist&lt;/a&gt;. We can discuss the major parts of the gist below.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;We use Web3 library to interact with the smart contracts we created.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;truffle-contract provides us methods to access the contracts which are deployed on the network.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Web3.eth.getAccounts gets us a list of all accounts created by testrpc. We can use first account as default account for our transactions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;We then get the deployed stock exchange instance and call the &lt;strong&gt;buy transaction&lt;/strong&gt;on it. Anything that modifies the blockchain is called a &lt;strong&gt;transaction&lt;/strong&gt;and it requires &lt;strong&gt;gas&lt;/strong&gt;for its execution. Our buy function modifies the blockchain and thus its a transaction.
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nx&quot;&gt;StockExchange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;deployed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;buy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;account&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;web3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toWei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ether&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)});&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You may have noticed that the function getBalance has been called differently. This is because getBalance &lt;strong&gt;does not modify the blockchain&lt;/strong&gt; and hence it is considered as a &lt;strong&gt;call&lt;/strong&gt;. This does &lt;strong&gt;not cost gas&lt;/strong&gt;for its execution and thus it is denoted by the keyword call to differentiate from the transaction.&lt;/p&gt;
+
+    &lt;p&gt;StockExchange.deployed().then(function(instance) {
+    meta = instance;
+    return meta.getBalance.call(account, {from: account});
+  })&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We can use the default web3 method web3.eth.getBalance to get the ether balance of any address. Here we are using it to check the ether balance of the account doing the transaction.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;As we already discussed our smart contract emits Transaction Event. We can listen to that event and display it in the UI using watch. You can see that we are listening to only the current accounts events using the &lt;strong&gt;user filter.&lt;/strong&gt; This is possible because of indexing the user field in our smart contract.
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nx&quot;&gt;StockExchange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;deployed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;nx&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Transaction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;account&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;fromBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;latest&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;toBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'latest'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+         &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setStatus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; - &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h3 id=&quot;creating-the-ui&quot;&gt;Creating the UI&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that the interaction part is done go to app/index.html and paste this gist.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Stock Exchange - Truffle Webpack Demo w/ Frontend&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://fonts.googleapis.com/css?family=Open+Sans:400,700'&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'stylesheet'&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'text/css'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./app.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Stock Exchange&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;  
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Company Stock Balance - &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;black&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;holdingBalance&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Account Stock Balance - &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;black&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;balance&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Account Ether Balance - &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;black&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;etherBalance&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+  
+  
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;buy&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onclick=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;App.buy()&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Buy&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sell&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onclick=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;App.sell()&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Sell&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Latest Transaction&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;running-the-dapp&quot;&gt;Running the Dapp&lt;/h3&gt;
+
+&lt;p&gt;Now we are all set to run and test our Dapp. Use the command npm run dev to start the server. It runs by default at localhost:8081. If you did everything correctly the output should be something like below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*CYhKDrOvFQr6ZzPsQkLlzg.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the curious, the decimal points in Ether balance is changing because of the gas usage for every transaction. The complete code is provided &lt;a href=&quot;https://github.com/karthickpdy/EthereumStockExchange&quot;&gt;here&lt;/a&gt;. Feel free to play around with it. Hope the tutorial was useful and you learnt something from it. Cheers!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">This is a follow up post to Ethereum technical primer where the basic concepts of Blockchain and Ethereum are explained. In this post we shall discuss in detail how to set up a development environment and how to build Dapps(Distributed Apps) using Ethereum smart contracts.</summary></entry><entry><title type="html">Technical primer to Ethereum</title><link href="http://localhost:4000/2018/05/18/technical-primer-to-ethereum.html" rel="alternate" type="text/html" title="Technical primer to Ethereum" /><published>2018-05-18T00:00:00+05:30</published><updated>2018-05-18T00:00:00+05:30</updated><id>http://localhost:4000/2018/05/18/technical-primer-to-ethereum</id><content type="html" xml:base="http://localhost:4000/2018/05/18/technical-primer-to-ethereum.html">&lt;p&gt;I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ecosystem that is catching up fast among the developer community. In this post I will explain the technology behind Ethereum so that we can get started with developing with Ethereum. This assumes you have technology background and basic understanding of blockchain so that we can discuss the Ethereum implementation.&lt;/p&gt;
 
 &lt;h2 id=&quot;first-things-first&quot;&gt;First things first&lt;/h2&gt;
 
@@ -203,4 +460,296 @@
 
 &lt;p&gt;I believe this post provides basic understanding of the blockchain and Ethereum. In my next post I will provide a detailed guide to getting started with building Dapps using Ethereum.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ecosystem that is catching up fast among the developer community. In this post I will explain the technology behind Ethereum so that we can get started with developing with Ethereum. This assumes you have technology background and basic understanding of blockchain so that we can discuss the Ethereum implementation.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">I attended a talk on Ethereum few weeks back and was fascinated by the possibilities it provided and started exploring the ecosystem. It is a pretty nascent ecosystem that is catching up fast among the developer community. In this post I will explain the technology behind Ethereum so that we can get started with developing with Ethereum. This assumes you have technology background and basic understanding of blockchain so that we can discuss the Ethereum implementation.</summary></entry><entry><title type="html">Noobs guide to building a chatbot using Lex — Integration with Facebook</title><link href="http://localhost:4000/2017/08/19/noobs-guide-to-building-a-chatbot-using-lex-integration-with-facebook.html" rel="alternate" type="text/html" title="Noobs guide to building a chatbot using Lex — Integration with Facebook" /><published>2017-08-19T00:00:00+05:30</published><updated>2017-08-19T00:00:00+05:30</updated><id>http://localhost:4000/2017/08/19/noobs-guide-to-building-a-chatbot-using-lex-integration-with-facebook</id><content type="html" xml:base="http://localhost:4000/2017/08/19/noobs-guide-to-building-a-chatbot-using-lex-integration-with-facebook.html">&lt;p&gt;We already have a functioning bot from the last post. If you have not read it please follow the steps in it and build a working bot as this post is a follow up to it. What is the use of bot if it is not linked to any platform, so here we will integrate our bot to Facebook messenger and access it from messenger. Lets get started.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1--create-a-facebook-app-and-facebook-page&quot;&gt;Step 1 : Create a Facebook app and Facebook Page&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;First we need to create a Facebook app. Go to &lt;a href=&quot;https://developers.facebook.com/&quot;&gt;Facebook Developer page&lt;/a&gt; and create a new app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to “Add a product” and add &lt;strong&gt;Facebook messenger&lt;/strong&gt; and you will be taken to the settings page of messenger.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need to generate the &lt;strong&gt;Page Access Token.&lt;/strong&gt;  You can either create a &lt;strong&gt;new Facebook page&lt;/strong&gt; or select an existing page(Make sure the page is not published if you are just testing).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once you provide a page, page access token is generated.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to “Dashboard” and get the &lt;strong&gt;App Secret.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Thats all we need from Facebook for now.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2--creating-channel-in-lex&quot;&gt;Step 2 : Creating channel in Lex&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to Amazon Lex console and go to settings tab and &lt;strong&gt;create an alias&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the &lt;strong&gt;Channel tab&lt;/strong&gt;and choose &lt;strong&gt;Facebook&lt;/strong&gt; channel.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide the name, description and the Alias you created in the settings.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide a random text as &lt;strong&gt;Verify Token&lt;/strong&gt;. This will be used as authentication for the calls from Facebook. You need to provide the &lt;strong&gt;same Verify Token in Facebook&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get the Page Access Token and App Secret key from Facebook app as mentioned and fill in them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click&lt;strong&gt;Activate&lt;/strong&gt; and a callback url should be generated for you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click &lt;strong&gt;Build&lt;/strong&gt; and build the bot .&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The settings should look something like below:&lt;/p&gt;
+&lt;p&gt;
+&lt;img style=&quot;height:500px;width:500px&quot; src=&quot;https://cdn-images-1.medium.com/max/3316/1*PmiZmE_v52IBuM0VRua29w.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3--configure-callback-in-facebook&quot;&gt;Step 3 : Configure callback in Facebook&lt;/h3&gt;
+
+&lt;p&gt;Now that we got the callback url we need to configure it in Facebook app we created.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the Facebook app we created.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copy the &lt;strong&gt;callback url&lt;/strong&gt; from Lex and provide it in Webhook settings in messenger.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide the &lt;strong&gt;same Verify Token&lt;/strong&gt;as you gave in Lex channel settings.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide the events &lt;strong&gt;messages, messaging_postbacks, messaging_optins&lt;/strong&gt;and verify and save.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the page and click on subscribe in the Webhook window to listen to chat from the page.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+&lt;img style=&quot;height:500px;width:700px&quot; src=&quot;https://cdn-images-1.medium.com/max/3640/1*gbEMK-b6PwqZVCLpgTod_Q.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4--make-the-page-to-send-events-to-our-bot&quot;&gt;Step 4 : Make the page to send events to our bot&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to &lt;strong&gt;Settings&lt;/strong&gt; in your Facebook page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select &lt;strong&gt;Messenger Platform&lt;/strong&gt; from the left tab.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You will see your Facebook app being listed there.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the role as &lt;strong&gt;Primary Receiver.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+&lt;img style=&quot;height:400px;width:800px&quot; src=&quot;https://cdn-images-1.medium.com/max/2584/1*UynyDqMjcOwHxSM8U2gtNw.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;That’s it, now we are all set to chat with our bot. You can go to the Facebook page you created and click on &lt;strong&gt;Send Message&lt;/strong&gt; to start chatting.&lt;/p&gt;
+
+&lt;p&gt;If all well well, Facebook messenger will be able to communicate with our Lex Bot and you will get response as below.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img style=&quot;height:600px;width:600px&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*EXQROrGO7kcSny6ZxJOeTA.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;https://kaizencoder.com/&quot;&gt;Kaizen Coder&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">We already have a functioning bot from the last post. If you have not read it please follow the steps in it and build a working bot as this post is a follow up to it. What is the use of bot if it is not linked to any platform, so here we will integrate our bot to Facebook messenger and access it from messenger. Lets get started.</summary></entry><entry><title type="html">A beginner’s guide to building a chatbot using Lex</title><link href="http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" rel="alternate" type="text/html" title="A beginner’s guide to building a chatbot using Lex" /><published>2017-07-22T00:00:00+05:30</published><updated>2017-07-22T00:00:00+05:30</updated><id>http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex</id><content type="html" xml:base="http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html">&lt;p&gt;Recently, we built a chat bot for the AWS ChatBot Challenge using Amazon Lex. I learned a ton of things from that experience, and thought I would put up a tutorial so that people can get started easily with building a basic bot. Let’s dive right into it.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-things-first&quot;&gt;First Things First&lt;/h2&gt;
+
+&lt;p&gt;Amazon Lex is an engine which parses natural language (whatever the user says) and converts it into actions that the bot can act on. So basically when you say “I want to order a pizza”, Lex understands that this order is an &lt;strong&gt;action&lt;/strong&gt; that the user wants to perform. It then tells the bot so that it can place an order for pizza.&lt;/p&gt;
+
+&lt;p&gt;The first step is understanding the different moving parts involved in Amazon Lex.&lt;/p&gt;
+
+&lt;h3 id=&quot;intent&quot;&gt;Intent&lt;/h3&gt;
+
+&lt;p&gt;Intent is a particular goal that the user wants to achieve. When the user says “I want to order a pizza,” &lt;strong&gt;order&lt;/strong&gt; is the &lt;strong&gt;intent&lt;/strong&gt;, that is, the action which the user wants to happen.  There are two types of intents:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/built-in-intent-ref/standard-intents&quot;&gt;Built-in Intents&lt;/a&gt; — These are basic intents provided by Lex. You can use them to do standard actions like allowing a user to cancel, get help, and so on.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Custom Intents — Custom intents are provided by developers to carry out a specific set of actions. We will discuss creating a custom intent in detail in the later half of this post.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;utterances&quot;&gt;Utterances&lt;/h3&gt;
+
+&lt;p&gt;Utterances are the phrases which are used to invoke an intent. “I want to order a pizza” is the utterance which is used to invoke OrderIntent.&lt;/p&gt;
+
+&lt;h3 id=&quot;slots&quot;&gt;Slots&lt;/h3&gt;
+
+&lt;p&gt;Slots are the inputs which the user needs to provide for fulfilling the intent. You may want to know the &lt;strong&gt;type of pizza&lt;/strong&gt; for OrderIntent, which is a slot. You can either create custom slot types for your purpose, or use the built-in types. Built-in types provide values for standard enumerations like date, name, country name, and so on which you may want to get from the user.&lt;/p&gt;
+
+&lt;h3 id=&quot;prompts&quot;&gt;Prompts&lt;/h3&gt;
+
+&lt;p&gt;Prompts are the questions which are asked to get input from the user. They are used to &lt;strong&gt;request values for slots&lt;/strong&gt; from the user. They wait for the user’s response and fill the slot with the response given by the user. A prompt can be “What type of pizza would you like to order?” for the OrderIntent.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img style=&quot;height:500px;width:500px&quot; src=&quot;https://cdn-images-1.medium.com/max/3940/1*sZ6O8hsOzEaL5CpP1OXI7w.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Components of a chatbot&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hands-on&quot;&gt;Hands on&lt;/h2&gt;
+
+&lt;p&gt;If you do not have an Amazon account, create one and go to Lex in your Amazon console.&lt;/p&gt;
+
+&lt;p&gt;Now let’s build a small greeter bot. The greeter bot asks your name and greets you by your name. Pretty simple, isn’t it? Lets get right down to building a working bot.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a new bot and name it “Greeter” or whatever you want.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the bot you created and create a new &lt;strong&gt;custom intent&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When you create a custom intent, you need to provide &lt;strong&gt;utterances&lt;/strong&gt; for invoking the intent. For our greeter, the utterances can be &lt;strong&gt;Hi, hey, hello&lt;/strong&gt;, and so on.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now we need to provide a &lt;strong&gt;slot&lt;/strong&gt; for getting the name from the user. We can use the built-in slot type &lt;strong&gt;AMAZON.US_FIRST_NAME&lt;/strong&gt; for this purpose. Give the name as “Name” (case matters for the code provided later to work) and the &lt;strong&gt;prompt&lt;/strong&gt;as “What’s your name?” or whatever you like, and save the slot.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide the fulfillment as &lt;strong&gt;Return parameters to the client&lt;/strong&gt; for now and save the intent.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The intent should look something like the below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;height:500px;width:500px&quot; src=&quot;https://cdn-images-1.medium.com/max/5696/1*AMeUTAawohKlO5ZadWyCDQ.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Greeter Intent&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You can now &lt;strong&gt;build&lt;/strong&gt; your bot and test it. You can invoke it by saying &lt;strong&gt;hi&lt;/strong&gt; and it will prompt you for your name and wait for your input. If you provide the name, it will print &lt;strong&gt;ReadyForFulfillment&lt;/strong&gt; and the name you gave.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;height:500px;width:500px&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*0jDVTCsHoA1dw5Glcv2xuw.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Initial bot test&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;json-responses-and-dialog-actions&quot;&gt;JSON Responses and Dialog Actions&lt;/h3&gt;
+
+&lt;p&gt;What we’ve done so far is enough if your bot just wants to read your name. But we want the bot to call you back by your name, so we need to provide a response to the bot in the format which it understands. Lex defines a JSON format which it expects for the bot conversation. The basic format is something like that given below:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    {
+        &quot;sessionAttributes&quot;: {
+        &quot;key1&quot;: &quot;value1&quot;,
+        &quot;key2&quot;: &quot;value2&quot;
+        ...
+      },
+      &quot;dialogAction&quot;: {
+			&quot;type&quot;: &quot;ElicitIntent, ElicitSlot, ConfirmIntent, Delegate, or Close&quot;    
+      }
+    }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Dialog action allows you to decide the next course of action for your bot. We need the &lt;strong&gt;Close type&lt;/strong&gt; dialog action to carry out our intended task. You can read more about the other dialog actions and their response formats &lt;a href=&quot;http://docs.aws.amazon.com/lex/latest/dg/lambda-input-response-format.html#using-lambda-response-format&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Close action allows you to close the conversation with/without sending a response to the user. So we can use it to call the user by the name and close the conversation. Our response will look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+ &quot;dialogAction&quot;:
+ {
+  &quot;fulfillmentState&quot;:&quot;Fulfilled&quot;,
+  &quot;type&quot;:&quot;Close&quot;,
+  &quot;message&quot;:{
+   &quot;contentType&quot;:&quot;PlainText&quot;,&quot;content&quot;: &quot;Hi &quot;+ name +&quot;, good to see you!&quot;
+  }
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You may have noticed that we need to read the &lt;strong&gt;name&lt;/strong&gt; from the user response. So we need to write a bit of code and get the name from the params and send the above response to the bot. This is where Lambda comes in.&lt;/p&gt;
+
+&lt;h3 id=&quot;introducing-lambda&quot;&gt;Introducing Lambda&lt;/h3&gt;
+
+&lt;p&gt;AWS Lambda lets you run code without provisioning or managing servers. So you can write a Lambda function and hook it up to your intent to send the specific response you expect for that intent.&lt;/p&gt;
+
+&lt;p&gt;Let’s create the Lambda we need.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the lambda console and click &lt;strong&gt;Create a new lambda function&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select &lt;strong&gt;Blank Function&lt;/strong&gt;and click next.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We do not need any triggers, so click next.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide a name for the lamdba and choose the runtime as &lt;strong&gt;Python 2.7&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copy paste the below code in the editor:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+def lambda_handler(event, context):
+    name = event[&quot;currentIntent&quot;][&quot;slots&quot;][&quot;Name&quot;].title()
+    response = {
+                &quot;dialogAction&quot;:
+                    {
+                     &quot;fulfillmentState&quot;:&quot;Fulfilled&quot;,
+                     &quot;type&quot;:&quot;Close&quot;,&quot;message&quot;:
+                        {
+                          &quot;contentType&quot;:&quot;PlainText&quot;,
+                          &quot;content&quot;: &quot;Hi &quot;+name+&quot;, good to see you!&quot;
+                        }
+                    }
+                }
+    return response
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Provide an existing role or create a new role for the Lamdba and create the Lamdba.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that our Lambda is created, the only thing we need to do is wire it up to serve our intent.&lt;/p&gt;
+
+&lt;h3 id=&quot;wiring-up-lamdba-and-intent&quot;&gt;Wiring up Lamdba and intent&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the Lex console and select the bot.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the Greeter intent we created.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the version dropdown near intent name as &lt;strong&gt;latest&lt;/strong&gt; to edit it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Change the &lt;strong&gt;fulfillment type to AWS Lambda function&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the Lambda we created from the dropdown and save the intent.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Thats it! Our bot is now ready. You can &lt;strong&gt;build&lt;/strong&gt; the bot and test it, and the conversation should go something like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;height:500px;width:500px&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*7PG-0D-lAJxvsw19L_FCgA.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Greeter Bot!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading my post. Hope you have learned something from it. Planning to write a follow-up to this, which allows us to integrate this bot with Facebook or Slack. Feel free to leave your comments and feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you liked this story, feel free to reach out to me at &lt;a href=&quot;http://karthickpdy.me/&quot;&gt;http://karthickpdy.me/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">Recently, we built a chat bot for the AWS ChatBot Challenge using Amazon Lex. I learned a ton of things from that experience, and thought I would put up a tutorial so that people can get started easily with building a basic bot. Let’s dive right into it.</summary></entry></feed>

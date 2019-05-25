@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45405999-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-45405999-1');
+  </script>
+  <title>
+    Getting started with Ethereum development - Kaizen Coder
+    
+  </title>
+
+  <meta name="description" content="This is a follow up post to Ethereum technical primer where the basic concepts of Blockchain and Ethereum are explained. In this post we shall discuss in det...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2018/06/01/getting-started-with-ethereum-development.html">
+  <link rel="alternate" type="application/rss+xml" title="Kaizen Coder" href="/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Kaizen Coder</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+  <header class="masthead">
+    
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Getting started with Ethereum development</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Srinivasan</a>
+              on June 01, 2018 &middot; <span class="reading-time" title="Estimated read time">
+  
+   11 mins  read </span>
+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>This is a follow up post to Ethereum technical primer where the basic concepts of Blockchain and Ethereum are explained. In this post we shall discuss in detail how to set up a development environment and how to build Dapps(Distributed Apps) using Ethereum smart contracts.</p>
+
+<h2 id="installing-dev-tools">Installing Dev tools</h2>
+
+<h3 id="installing-testrpc">Installing testrpc</h3>
+
+<p>The easiest way to get started with setting up a local client is using <a href="https://github.com/ethereumjs/testrpc">testrpc</a>. Testrpc simulates a client in your local machine where you can deploy and test your smart contracts. You can install it using the command</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install -g ethereumjs-testrpc
+</code></pre></div></div>
+
+<h3 id="installing-truffle">Installing Truffle</h3>
+
+<p><a href="https://github.com/trufflesuite/truffle">Truffle</a> is a Ethereum development framework. It allows us to easily develop smart contracts and deploy it in the network(testrpc). It also allows us to write tests for our smart contracts. I highly encourage you to go through the <a href="http://truffleframework.com/docs/">truffle documentation</a> to understand it better. You can install truffle using the below command.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install -g truffle
+</code></pre></div></div>
+
+<p>These two should be sufficient for us to get started.</p>
+
+<h2 id="building-a-dapp">Building a Dapp</h2>
+
+<p>Now we can go ahead and start building a dapp. The example I will be showing is a small stock exchange where we can buy and sell stocks.</p>
+
+<h3 id="creating-project-in-truffle">Creating project in Truffle</h3>
+
+<p>Create a new directory StockExchange and create a new truffle project inside it. You can create a new project in truffle using the command below</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>truffle init webpack
+</code></pre></div></div>
+
+<p>This will create a new project with the following structure:</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">app/</code> - This directory contains the Frontend and UI(HTML, JS and CSS files).</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">contracts/</code> - This is a directory to put all your smart contracts.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">migrations/</code> - Contains migration and deployment files — we can deploy the smart contract and specify its initial state here.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">test/</code> - Test files for testing your application and contracts.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">truffle.js</code> - your main Truffle configuration file.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">webpack.config.js</code> - You can configure your webpack settings.</p>
+  </li>
+</ul>
+
+<h3 id="creating-smart-contract">Creating smart contract</h3>
+
+<p>We can create smart contracts using <a href="https://solidity.readthedocs.io/en/develop/">Solidity</a>. Solidity is an high level language designed to create smart contracts on the Ethereum Virtual Machine(EVM). We can create a smart contract for StockExchange step by step.</p>
+
+<ol>
+  <li>
+    <p>Create a sol file named <strong>StockExchange.sol</strong> in the <strong>contracts</strong> folder in your project.</p>
+  </li>
+  <li>
+    <p>Copy the contents from the below gist and add it to the file.</p>
+  </li>
+</ol>
+
+<pre><code class="language-solidity">pragma solidity ^0.4.2;
+
+contract StockExchange {
+
+	mapping (address =&gt; uint) balances;
+	uint holdings;
+
+	event Transaction(string _type, address indexed user);
+
+	function StockExchange() {
+		holdings = 10000;
+	}
+
+	function buy() payable{
+		if(msg.value == 1 ether){
+			balances[msg.sender] += 1;
+			holdings -= 1;
+			Transaction("Buy",msg.sender);
+		}
+	}
+
+	function sell(){
+		balances[msg.sender] -= 1;
+		holdings += 1;
+		msg.sender.transfer(1 ether);
+		Transaction("Sell",msg.sender);
+	}
+
+	function getBalance(address addr) returns(uint) {
+		return balances[addr];
+	}
+
+	function getHoldings() returns(uint) {
+		return holdings;
+	}
+}
+</code></pre>
+
+<h3 id="dissecting-the-smart-contract">Dissecting the smart contract</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pragma solidity ^0.4.2;
+</code></pre></div></div>
+
+<p><strong>pragma</strong> is used to specify the solidity version using which the smart contract compiles. This is to avoid backward compatibility issues.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mapping (address =&gt; uint) balances;
+</code></pre></div></div>
+
+<p><strong>mapping</strong> is similar to <strong>hashmap</strong>where we can hold a key value pair. Here we use it to hold the balance for each account.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uint holdings;
+</code></pre></div></div>
+
+<p><strong>Holdings</strong> is used to denote the stocks held by the company. uint denotes unsigned integer.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>event Transaction(string _type, address indexed user);
+</code></pre></div></div>
+
+<p>Events are used to publish a event from the smart contract to the outside world. Events can be listened from the Dapps , as soon as an event is fired the listener will get the contents emitted from the event. Here we emit a **Transaction event **with either “Buy” or “Sell” to indicate the type of Transaction and the address of the user who performed the transaction. The indexed keyword allows us to filter the events on the listener side.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function StockExchange() {
+  holdings = 10000;
+}
+</code></pre></div></div>
+
+<p>StockExchange() is a <strong>constructor</strong> and we initialize holding with 10000 stocks.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function buy() payable{
+  if(msg.value == 1 ether){
+   balances[msg.sender] += 1;
+   holdings -= 1;
+   Transaction("Buy",msg.sender);
+  }
+ }
+</code></pre></div></div>
+
+<p>Buy is a method which can be executed from Dapp. Notice the <strong>payable</strong> keyword in the function. It allows the method to <strong>receive ether</strong>. We can get who initiated the transaction using msg.sender. We can check how much ether is sent using msg.value. The other business logic is self explanatory and after the buy is completed we generate a <strong>Transaction event</strong>of type<strong>“Buy”.</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>msg.sender.transfer(1 ether);
+</code></pre></div></div>
+
+<p>You may have noticed the above statement in <strong>sell</strong> method. This is used to send Ether directly to the sender from the smart contract.</p>
+
+<p>Now that our smart contract is done, we need to modify the migration file to deploy this contract to the network.</p>
+
+<h3 id="modifying-the-migration-file">Modifying the migration file</h3>
+
+<p>Go to migrations/deploy_contracts.js. Clear whatever it has and add the following code to it.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var StockExchange = artifacts.require("./StockExchange.sol");
+
+module.exports = function(deployer) {
+  deployer.deploy(StockExchange);
+};
+</code></pre></div></div>
+
+<p>This is used to deploy the smart contract we created to the network(testrpc).</p>
+
+<h3 id="compiling-and-deploying-the-smart-contract">Compiling and deploying the smart contract</h3>
+
+<ol>
+  <li>
+    <p>Start running testrpc by typing testrpc in the terminal</p>
+  </li>
+  <li>
+    <p>You can compile the smart contract using truffle compile.</p>
+  </li>
+  <li>
+    <p>You can deploy the smart contract using truffle migrate. This executes the migration script we wrote above.</p>
+  </li>
+</ol>
+
+<p>Now that our backend is ready we can go ahead and create our interactions and UI.</p>
+
+<h3 id="interacting-with-smart-contracts">Interacting with smart contracts</h3>
+
+<p>Go to app/javascripts/app.js and copy paste the contents of <a href="https://gist.github.com/karthickpdy/f35fad39daf5c035fd04b254068401f1">this gist</a>. We can discuss the major parts of the gist below.</p>
+
+<ol>
+  <li>
+    <p>We use Web3 library to interact with the smart contracts we created.</p>
+  </li>
+  <li>
+    <p>truffle-contract provides us methods to access the contracts which are deployed on the network.</p>
+  </li>
+  <li>
+    <p>Web3.eth.getAccounts gets us a list of all accounts created by testrpc. We can use first account as default account for our transactions.</p>
+  </li>
+  <li>We then get the deployed stock exchange instance and call the <strong>buy transaction</strong>on it. Anything that modifies the blockchain is called a <strong>transaction</strong>and it requires <strong>gas</strong>for its execution. Our buy function modifies the blockchain and thus its a transaction.
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nx">StockExchange</span><span class="p">.</span><span class="nx">deployed</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">instance</span><span class="p">)</span> <span class="p">{</span>
+       <span class="nx">meta</span> <span class="o">=</span> <span class="nx">instance</span><span class="p">;</span>
+       <span class="k">return</span> <span class="nx">meta</span><span class="p">.</span><span class="nx">buy</span><span class="p">({</span><span class="na">from</span><span class="p">:</span> <span class="nx">account</span><span class="p">,</span><span class="na">value</span><span class="p">:</span> <span class="nx">web3</span><span class="p">.</span><span class="nx">toWei</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"ether"</span><span class="p">)});</span>
+     <span class="p">})</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>You may have noticed that the function getBalance has been called differently. This is because getBalance <strong>does not modify the blockchain</strong> and hence it is considered as a <strong>call</strong>. This does <strong>not cost gas</strong>for its execution and thus it is denoted by the keyword call to differentiate from the transaction.</p>
+
+    <p>StockExchange.deployed().then(function(instance) {
+    meta = instance;
+    return meta.getBalance.call(account, {from: account});
+  })</p>
+  </li>
+  <li>
+    <p>We can use the default web3 method web3.eth.getBalance to get the ether balance of any address. Here we are using it to check the ether balance of the account doing the transaction.</p>
+  </li>
+  <li>As we already discussed our smart contract emits Transaction Event. We can listen to that event and display it in the UI using watch. You can see that we are listening to only the current accounts events using the <strong>user filter.</strong> This is possible because of indexing the user field in our smart contract.
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nx">StockExchange</span><span class="p">.</span><span class="nx">deployed</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">instance</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">instance</span><span class="p">.</span><span class="nx">Transaction</span><span class="p">({</span><span class="na">user</span><span class="p">:</span> <span class="nx">account</span><span class="p">},{</span><span class="na">fromBlock</span><span class="p">:</span> <span class="s2">"latest"</span><span class="p">,</span><span class="na">toBlock</span><span class="p">:</span> <span class="s1">'latest'</span><span class="p">}).</span><span class="nx">watch</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span><span class="nx">result</span><span class="p">){</span>
+         <span class="nb">self</span><span class="p">.</span><span class="nx">setStatus</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">args</span><span class="p">.</span><span class="nx">_type</span><span class="o">+</span><span class="s2">" - "</span><span class="o">+</span> <span class="nx">result</span><span class="p">.</span><span class="nx">args</span><span class="p">.</span><span class="nx">user</span><span class="p">);</span>
+       <span class="p">});</span>
+   <span class="p">});</span>
+</code></pre></div>    </div>
+    <h3 id="creating-the-ui">Creating the UI</h3>
+  </li>
+</ol>
+
+<p>Now that the interaction part is done go to app/index.html and paste this gist.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Stock Exchange - Truffle Webpack Demo w/ Frontend<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">'https://fonts.googleapis.com/css?family=Open+Sans:400,700'</span> <span class="na">rel=</span><span class="s">'stylesheet'</span> <span class="na">type=</span><span class="s">'text/css'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"./app.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>Stock Exchange<span class="nt">&lt;/h1&gt;</span>  
+  <span class="nt">&lt;h3&gt;</span>Company Stock Balance - <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"black"</span><span class="nt">&gt;&lt;span</span> <span class="na">id=</span><span class="s">"holdingBalance"</span><span class="nt">&gt;&lt;/h3&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>Account Stock Balance - <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"black"</span><span class="nt">&gt;&lt;span</span> <span class="na">id=</span><span class="s">"balance"</span><span class="nt">&gt;&lt;/h3&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>Account Ether Balance - <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"black"</span><span class="nt">&gt;&lt;span</span> <span class="na">id=</span><span class="s">"etherBalance"</span><span class="nt">&gt;&lt;/h3&gt;</span>
+  
+  
+  <span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"buy"</span> <span class="na">onclick=</span><span class="s">"App.buy()"</span><span class="nt">&gt;</span>Buy<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"sell"</span> <span class="na">onclick=</span><span class="s">"App.sell()"</span><span class="nt">&gt;</span>Sell<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;br&gt;&lt;br&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>Latest Transaction<span class="nt">&lt;/h3&gt;&lt;span</span> <span class="na">id=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="running-the-dapp">Running the Dapp</h3>
+
+<p>Now we are all set to run and test our Dapp. Use the command npm run dev to start the server. It runs by default at localhost:8081. If you did everything correctly the output should be something like below.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*CYhKDrOvFQr6ZzPsQkLlzg.gif" alt="" /></p>
+
+<p>For the curious, the decimal points in Ether balance is changing because of the gas usage for every transaction. The complete code is provided <a href="https://github.com/karthickpdy/EthereumStockExchange">here</a>. Feel free to play around with it. Hope the tutorial was useful and you learnt something from it. Cheers!</p>
+
+<p><em>If you liked this story, feel free to reach out to me at <a href="http://karthickpdy.me/">http://karthickpdy.me/</a>.</em></p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2018/05/18/technical-primer-to-ethereum.html"
+            data-toggle="tooltip" data-placement="top" title="Technical primer to Ethereum">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html"
+            data-toggle="tooltip" data-placement="top" title="The one thing between you and your dream job — coding interview!">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.twitter.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/srinivasan.chandramouli.7">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.linkedin.com/in/srinivasanchandramouli">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Srinivasan 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>

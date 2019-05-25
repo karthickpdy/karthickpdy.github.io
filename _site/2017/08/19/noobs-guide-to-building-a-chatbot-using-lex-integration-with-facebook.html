@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45405999-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-45405999-1');
+  </script>
+  <title>
+    Noobs guide to building a chatbot using Lex — Integration with Facebook - Kaizen Coder
+    
+  </title>
+
+  <meta name="description" content="We already have a functioning bot from the last post. If you have not read it please follow the steps in it and build a working bot as this post is a follow ...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2017/08/19/noobs-guide-to-building-a-chatbot-using-lex-integration-with-facebook.html">
+  <link rel="alternate" type="application/rss+xml" title="Kaizen Coder" href="/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Kaizen Coder</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+  <header class="masthead">
+    
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Noobs guide to building a chatbot using Lex — Integration with Facebook</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Srinivasan</a>
+              on August 19, 2017 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>We already have a functioning bot from the last post. If you have not read it please follow the steps in it and build a working bot as this post is a follow up to it. What is the use of bot if it is not linked to any platform, so here we will integrate our bot to Facebook messenger and access it from messenger. Lets get started.</p>
+
+<h3 id="step-1--create-a-facebook-app-and-facebook-page">Step 1 : Create a Facebook app and Facebook Page</h3>
+
+<ol>
+  <li>
+    <p>First we need to create a Facebook app. Go to <a href="https://developers.facebook.com/">Facebook Developer page</a> and create a new app.</p>
+  </li>
+  <li>
+    <p>Go to “Add a product” and add <strong>Facebook messenger</strong> and you will be taken to the settings page of messenger.</p>
+  </li>
+  <li>
+    <p>You need to generate the <strong>Page Access Token.</strong>  You can either create a <strong>new Facebook page</strong> or select an existing page(Make sure the page is not published if you are just testing).</p>
+  </li>
+  <li>
+    <p>Once you provide a page, page access token is generated.</p>
+  </li>
+  <li>
+    <p>Go to “Dashboard” and get the <strong>App Secret.</strong></p>
+  </li>
+</ol>
+
+<p>Thats all we need from Facebook for now.</p>
+
+<h3 id="step-2--creating-channel-in-lex">Step 2 : Creating channel in Lex</h3>
+
+<ol>
+  <li>
+    <p>Go to Amazon Lex console and go to settings tab and <strong>create an alias</strong>.</p>
+  </li>
+  <li>
+    <p>Go to the <strong>Channel tab</strong>and choose <strong>Facebook</strong> channel.</p>
+  </li>
+  <li>
+    <p>Provide the name, description and the Alias you created in the settings.</p>
+  </li>
+  <li>
+    <p>Provide a random text as <strong>Verify Token</strong>. This will be used as authentication for the calls from Facebook. You need to provide the <strong>same Verify Token in Facebook</strong>.</p>
+  </li>
+  <li>
+    <p>Get the Page Access Token and App Secret key from Facebook app as mentioned and fill in them.</p>
+  </li>
+  <li>
+    <p>Click<strong>Activate</strong> and a callback url should be generated for you.</p>
+  </li>
+  <li>
+    <p>Click <strong>Build</strong> and build the bot .</p>
+  </li>
+</ol>
+
+<p>The settings should look something like below:</p>
+<p>
+<img style="height:500px;width:500px" src="https://cdn-images-1.medium.com/max/3316/1*PmiZmE_v52IBuM0VRua29w.png" />
+</p>
+
+<h3 id="step-3--configure-callback-in-facebook">Step 3 : Configure callback in Facebook</h3>
+
+<p>Now that we got the callback url we need to configure it in Facebook app we created.</p>
+
+<ol>
+  <li>
+    <p>Go to the Facebook app we created.</p>
+  </li>
+  <li>
+    <p>Copy the <strong>callback url</strong> from Lex and provide it in Webhook settings in messenger.</p>
+  </li>
+  <li>
+    <p>Provide the <strong>same Verify Token</strong>as you gave in Lex channel settings.</p>
+  </li>
+  <li>
+    <p>Provide the events <strong>messages, messaging_postbacks, messaging_optins</strong>and verify and save.</p>
+  </li>
+  <li>
+    <p>Select the page and click on subscribe in the Webhook window to listen to chat from the page.</p>
+  </li>
+</ol>
+
+<p>
+<img style="height:500px;width:700px" src="https://cdn-images-1.medium.com/max/3640/1*gbEMK-b6PwqZVCLpgTod_Q.png" />
+</p>
+
+<h3 id="step-4--make-the-page-to-send-events-to-our-bot">Step 4 : Make the page to send events to our bot</h3>
+
+<ol>
+  <li>
+    <p>Go to <strong>Settings</strong> in your Facebook page.</p>
+  </li>
+  <li>
+    <p>Select <strong>Messenger Platform</strong> from the left tab.</p>
+  </li>
+  <li>
+    <p>You will see your Facebook app being listed there.</p>
+  </li>
+  <li>
+    <p>Set the role as <strong>Primary Receiver.</strong></p>
+  </li>
+</ol>
+
+<p>
+<img style="height:400px;width:800px" src="https://cdn-images-1.medium.com/max/2584/1*UynyDqMjcOwHxSM8U2gtNw.png" />
+</p>
+
+<p>That’s it, now we are all set to chat with our bot. You can go to the Facebook page you created and click on <strong>Send Message</strong> to start chatting.</p>
+
+<p>If all well well, Facebook messenger will be able to communicate with our Lex Bot and you will get response as below.</p>
+
+<p>
+<img style="height:600px;width:600px" src="https://cdn-images-1.medium.com/max/2000/1*EXQROrGO7kcSny6ZxJOeTA.png" />
+</p>
+
+<p><em>If you liked this story, feel free to reach out to me at <a href="https://kaizencoder.com/">Kaizen Coder</a>.</em></p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html"
+            data-toggle="tooltip" data-placement="top" title="A beginner’s guide to building a chatbot using Lex">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/2018/05/18/technical-primer-to-ethereum.html"
+            data-toggle="tooltip" data-placement="top" title="Technical primer to Ethereum">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.twitter.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/srinivasan.chandramouli.7">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.linkedin.com/in/srinivasanchandramouli">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Srinivasan 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>
