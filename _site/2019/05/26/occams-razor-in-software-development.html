@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45405999-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-45405999-1');
+  </script>
+  <title>
+    Occam&#39;s Razor in Software Development - Kaizen Coder
+    
+  </title>
+
+  <meta name="description" content="Recently we were in a meeting with multiple stakeholders from business side. When asked how one of our features work, I started explaining them the details o...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2019/05/26/occams-razor-in-software-development.html">
+  <link rel="alternate" type="application/rss+xml" title="Kaizen Coder" href="/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Kaizen Coder</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+  <header class="masthead">
+    
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Occam's Razor in Software Development</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Srinivasan</a>
+              on May 26, 2019 &middot; <span class="reading-time" title="Estimated read time">
+  
+   9 mins  read </span>
+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>Recently we were in a meeting with multiple stakeholders from business side. When asked how one of our features work, I started explaining them the details of the features and how it is implemented. After the meeting a senior engineer told me that eventhough I explained every single detail of the feature, there is going to be a follow up meeting to discuss this. He told me this was because I had told them too much details which probably confused them. That is when I understood the principle of Occam’s Razor.</p>
+<h1 id="what-is-occams-razor">What is Occam’s Razor?</h1>
+<p>Quoted from Wikipedia</p>
+<blockquote>
+  <p>Occam’s razor (also Ockham’s razor or Ocham’s razor,  further known as the law of parsimony  is the problem-solving principle that essentially states that “simpler solutions are more likely to be correct than complex ones.” When presented with competing hypotheses to solve a problem, one should select the solution with the fewest assumptions. The idea is attributed to English Franciscan friar William of Ockham (c. 1287–1347), a scholastic philosopher and theologian.</p>
+</blockquote>
+
+<p>We have all heard the famous quote by Sherlock Holmes</p>
+<blockquote>
+  <p>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.</p>
+</blockquote>
+
+<p>This follows directly from Occam’s Razor. This principle states that given two explanations of a situation, the one in which there is the least number of variables(simpler) however improbable is the most likely explanation. This principle is very helpful and it can be used in a wide variety of situations but it is especially powerful in the hands of software professional.</p>
+
+<h1 id="how-is-it-applied-in-software">How is it applied in Software</h1>
+<p>There are many areas of Sofware development which can benefit from this principle. A few of them are:</p>
+<h2 id="coding">Coding</h2>
+
+<p>The first and foremost area is coding. As developers we make hundreds of decisions on a day to day basis that directly affects the health of the codebase as well as the business. The common mistakes we make include adding unwanted abstractions, designing for the future, making it “extensible”(whatever that means).  These code with unwanted additional complexity slowly rots over time and becomes “that” part of the code that no one knows what is happening and nobody is willing to touch. These are the things we do either knowingly or unknowingly which can take a dent on our code base in the long-run.</p>
+
+<p>To overcome this it would be prudent for us to think in terms of Occam’s Razor. Always do the simplest thing possible at any point in time. Principles like YAGNI and KISS are examples of Occam’s Razor in coding.  If you want to combine 3 design patters to accomodate a feature request you expect in the future, restrain your primal instincts and stick with a single class for now. Using Occam’s razor during the development process would keep the codebase simple and readable and your future peers will really thank you.</p>
+
+<p>A word of caution here is, this principle should not be used as an excuse to write bad code or take shortcuts. If there is a real need to add complexity by all means you should do that. This gives a framework for you to step back and think for a moment and it should be used as such.</p>
+
+<h2 id="debugging">Debugging</h2>
+<p>Another intersting application of this principle is while debugging. The hard part about debugging is nobody knows the answer especially when you work in a legacy code base with business critical functionalities.  Bigger the codebase, more complex the debugging process and thus Occam’s Razor comes in really handy.  All good software developers will trace the root cause of a bug by using this principle even without realizing it.</p>
+
+<p>Lets say there is a program displaying a few stats in the dashboard. You observe that the each time the dashboard is updated you get 2x instead of x for a particular stat. What would be your first instict? Where is the issue? Is it an double counting issue or some thread level race condition? I am guessing most of you with go with the former. This is Occam’s Razor in action. You picked the choice which provides the simplest explanation for the issue intutively.</p>
+
+<p>This is not to say that always the simplest explanation is the right one. Instead you start from the simplest one and eliminate one by one by theory or experiment until you arrive at the actual root cause for the problem. This provides a framework for you to tackle problems methodically.</p>
+
+<h2 id="communication">Communication</h2>
+<p>One of the most under-rated function of a software developer is communication. Be it with peers/ managers/ stakeholders, communication is as important as coding for any developer. As developers we are the closest to any given problem and it is natural for people to rely on us for understanding the whole picuture of a product/feature. This makes what you communicate and  how you communicate extremely crucial from a business standpoint.</p>
+
+<p>As we are closest to a problem, we will have a lot of  technical and domain knowledge around it. But it is extremely important to communicate the right things to the right people. Assume you are in a mail thread with Sr. engineer, PM, Manager and a Business development executive, you need to provide just the right amount of detail so that the Engineer can get the technical challenges and the others can also understand the complexity technically as well as the business justification. You need to achieve the right amount of balance in the technical/business mixture for the audience to understand and not lose interest. This is where Occam’s razor comes in. You need to provide the least level of detail in the mail and schedule a follow up for the people who needs to understand more.</p>
+
+<p>Take this as an example “we did a POC  on x and we were able to achieve y.  Eventhough we discussed about A in the previous mail, we could not achieve A due to the complexities in an library that we were using. There were a lot of assumptions in the threading model in the library and thus it prevented us from achieving A”.</p>
+
+<p>Now what do you think the different stakeholders will understand?</p>
+<ol>
+  <li>Engineer - Yes I get the issue.</li>
+  <li>PM- So basically we cant achieve A.  And what is threading model?</li>
+  <li>Manager - Did he try enough to acheive A?</li>
+</ol>
+
+<p>Instead if we write “we did a POC on x and were able to achieve y. A was targetted but not achieved. I’ll schedule a meeting to demo the POC and go into details on the blocker for A.” After that you have all the time in the world to explain in detail the blockers for the right audience and acheive a consensus.</p>
+
+<p>Now what is the thought process after the demo.</p>
+<ol>
+  <li>Engineer - Makes sense.</li>
+  <li>PM - The POC is good for now. I guess we can drop A for now and proceed without it.</li>
+  <li>Manager - He has done an indepth analysis and knows what he is doing.</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Occam’s Razor can be employed in a wide variety of scenarios and these are just a few examples. Developers use this principle intutively without knowing it. But knowing it and using it deliberately in various situations will greatly improve you as a software developer. If you can think of any other area of Software where this principle is being used feel free to leave your thoughts in comments.</p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2018/08/13/the-one-thing-between-you-and-your-dream-job-coding-interview.html"
+            data-toggle="tooltip" data-placement="top" title="The one thing between you and your dream job — coding interview!">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.twitter.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/srinivasan.chandramouli.7">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.linkedin.com/in/srinivasanchandramouli">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Srinivasan 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>
