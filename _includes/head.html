@@ -11,10 +11,10 @@
     gtag('config', 'UA-45405999-1');
   </script>
   <title>
-    {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
+    {% if page.title %}{{ page.title | escape }}
     {% else %}{{ site.title | escape }}{% endif %}
   </title>
-
+  {% seo %}
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
