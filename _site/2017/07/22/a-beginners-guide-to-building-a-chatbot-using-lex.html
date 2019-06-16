@@ -103,6 +103,7 @@
 
   <div class="container">
     <div class="row">
+
       <div class="col-lg-8 col-md-10 mx-auto">
 
         <p>Recently, we built a chat bot for the AWS ChatBot Challenge using Amazon Lex. I learned a ton of things from that experience, and thought I would put up a tutorial so that people can get started easily with building a basic bot. Let’s dive right into it.</p>
@@ -302,11 +303,9 @@ def lambda_handler(event, context):
           
 
         </div>
-
       </div>
-    </div>
-  </div>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <div class="col-md-2" >
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <style type="text/css">
     .share-box a {
   display: inline-block;
@@ -358,26 +357,36 @@ def lambda_handler(event, context):
     color: #fff;
     background-color: #444444; }
 </style>
-<div class="share-box">
-<h5>Share this:</h5>
 
-<a class="f" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-facebook-official fa"></i><span> facebook</span></a>
+<div class="share-box" style="top:0;position: sticky;">
 
+<div class="row">
 <a class="t" href="https://twitter.com/intent/tweet?text=&url=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"></i><span> twitter</span></a>
-
-<a class="g" href="https://plus.google.com/share?url=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa"></i><span> google</span></a>
-
-<a class="r" href="http://www.reddit.com/submit?url=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-reddit fa"></i><span> reddit</span></a>
-
-<a class="l" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa"></i><span> linkedin</span></a>
-
-<a class="e" href="mailto:?subject=&amp;body=Check out this site http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html"><i class="fa fa-envelope fa"></i><span> email</span></a>                          
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"></i><span> </span></a>
+  
 </div>
+
+
+<!-- <a class="g" href="https://plus.google.com/share?url=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" onclick="window.open(this.href, 'mywin', -->
+<!-- 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa"></i><span> google</span></a> -->
+
+<!-- <a class="r" href="http://www.reddit.com/submit?url=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" onclick="window.open(this.href, 'mywin', -->
+<!-- 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-reddit fa"></i><span> reddit</span></a> -->
+<div class="row">
+<a class="l" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa"></i><span> </span></a>  
+</div>
+
+<div class="fb-share-button row" data-href="http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html" data-layout="button_count" data-size="small">
+  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share
+</a>
+</div>
+<!-- <a class="e" href="mailto:?subject=&amp;body=Check out this site http://localhost:4000/2017/07/22/a-beginners-guide-to-building-a-chatbot-using-lex.html"><i class="fa fa-envelope fa"></i><span> email</span></a>                           -->
+</div>          
+       </div>
+
+    </div>
+  </div>
 
 
     <!-- Footer -->
@@ -386,6 +395,13 @@ def lambda_handler(event, context):
 
 <footer>
   <div class="container">
+    <!-- <div class="row"> -->
+      <div class="text-center col-lg-8 col-md-10 mx-auto">
+      
+  Get in touch!
+</div>
+    <!-- </div> -->
+    
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <ul class="list-inline text-center">
@@ -440,7 +456,8 @@ def lambda_handler(event, context):
     <script src="/assets/vendor/jquery/jquery.min.js"></script>
 <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=127500180689577&autoLogAppEvents=1"></script>
 <script src="/assets/scripts.js"></script>
 
 
