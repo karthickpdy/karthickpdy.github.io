@@ -9,6 +9,7 @@ github_username: karthickpdy
 facebook_username: "srinivasan.chandramouli.7"
 linkedin_username: srinivasanchandramouli
 highlighter: rouge
+comments: true
 markdown: kramdown
 kramdown:
   input: GFM
