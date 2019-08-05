@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45405999-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-45405999-1');
+  </script>
+  <title>
+    Behind the scenes of coding interviews - good vs bad!
+    
+  </title>
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Behind the scenes of coding interviews - good vs bad! | Kaizen Coder</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Behind the scenes of coding interviews - good vs bad!" />
+<meta name="author" content="Srinivasan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Interviewing is a skill in and of itself. You can be the best developer in the world but you may still screw up an interview." />
+<meta property="og:description" content="Interviewing is a skill in and of itself. You can be the best developer in the world but you may still screw up an interview." />
+<link rel="canonical" href="http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html" />
+<meta property="og:url" content="http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html" />
+<meta property="og:site_name" content="Kaizen Coder" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-08-05T00:00:00+05:30" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html","headline":"Behind the scenes of coding interviews - good vs bad!","dateModified":"2019-08-05T00:00:00+05:30","datePublished":"2019-08-05T00:00:00+05:30","author":{"@type":"Person","name":"Srinivasan"},"description":"Interviewing is a skill in and of itself. You can be the best developer in the world but you may still screw up an interview.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html"},"@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta name="description" content="Interviewing is a skill in and of itself. You can be the best developer in the world but you may still screw up an interview.">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html">
+  <link rel="alternate" type="application/rss+xml" title="Kaizen Coder" href="/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Kaizen Coder</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+    <header class="masthead">
+        
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-heading">
+                        <h1>Behind the scenes of coding interviews - good vs bad!</h1>
+                        
+                        <h2 class="subheading">What happens inside an interview room? What factors affect the decision of an interviewer?</h2>
+                        
+                        <span class="meta">Posted by
+                            <a href="#">Srinivasan</a>
+                            on August 05, 2019 &middot; <span class="reading-time" title="Estimated read time">
+  
+   12 mins  read </span>
+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <p>Interviewing is a skill in and of itself. You can be the best developer in the world but you may still screw up an interview.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.</p>&mdash; Max Howell (@mxcl) <a href="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw">June 10, 2015</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>How many times have you come out of an interview and wondered what did I do wrong? Why did they reject me? As a candidate, it helps a lot to understand the expectations in an interview. In this article, I want to show every aspiring candidate the difference between a good and a bad interview and how it is perceived by the interviewer. We will compare and contrast two different interviews and learn from each of them so that you can tweak your actions to match the expectations.</p>
+
+<h2 id="first-interview">First Interview</h2>
+<p>Let me take the same question above “Inverting a binary tree”.</p>
+
+<p><em>Interviewer (I)</em>: Hi, Welcome to our company. I am xxx doing yyy. So tell me about yourself.</p>
+
+<p><em>Candidate (C)</em> : I am xxx. I have about 5 years of experience in Backend development. I love solving technical problems…..</p>
+
+<p><em>I</em>: That’s great. So shall we move on to the problem-solving part?</p>
+
+<p><em>C</em>: Sure!</p>
+
+<p><em>I</em>: So you are given a binary tree. I want you to invert the binary tree and print the resulting tree.</p>
+
+<p><em>C</em>: <strong><em>(Thinking in the head)</em></strong> Hmmm Ok. A binary tree has two children. So I am assuming inverting means printing from leaf to root. So the easiest way to do that is to traverse the tree till the end and find the leaves…</p>
+
+<p><em>I</em>: <strong><em>(After 5 mins of complete silence)</em></strong>  Do you understand the question? Do you need any clarification?</p>
+
+<p><em>C</em>: I am <strong>clear</strong>. Now I am just thinking of a way to print the nodes starting from the leaf.</p>
+
+<p><em>I</em>: What do you mean to print the nodes starting from the leaf?</p>
+
+<p><em>C</em>: So basically I should print from leaf to root right? It is easy to traverse until the leaf. But the hard part is traversing back?</p>
+
+<p><em>I</em>: Hmmm. Are you sure you understand the question right? Inverting a tree means you should <strong>swap the left and right children</strong>.</p>
+
+<p><em>C</em>: Sorry I am not clear. When you said invert I <strong>assumed</strong> you meant printing from leaf to root.</p>
+
+<p><em>I</em>: That’s alright <strong><em>(This is where you lost the job)</em></strong>. Now that you are clear let’s proceed.</p>
+
+<p><em>C</em>: Yes I am clear. So now I have to swap the left and right nodes. That’s easy right.
+<strong><em>(Writes code in silence)</em></strong></p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">invert</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+  <span class="n">t</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">left</span> 
+  <span class="n">node</span><span class="p">.</span><span class="nf">left</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">right</span>
+  <span class="n">node</span><span class="p">.</span><span class="nf">right</span> <span class="o">=</span> <span class="n">t</span>
+  <span class="k">return</span> <span class="n">node</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p><em>C</em>: I am done with the code.</p>
+
+<p><em>I</em>: Cool. So what have you done here?</p>
+
+<p><em>C</em>: I have inverted the tree by swapping the left and right nodes. So I keep a temp variable to achieve the same.</p>
+
+<p><em>I</em>: <strong><em>(Trying to nudge towards a proper solution)</em></strong> But this swaps only the root node right?</p>
+
+<p><em>C</em>:<strong><em>(Puzzled)</em></strong> Hmm yes, so the left and right children will be inverted. That’s the question right?</p>
+
+<p><em>I</em>: <strong><em>(Still there is no clarity in question)</em></strong> So the question is the complete tree should be inverted. Not just the root.</p>
+
+<p><em>C</em>: Oh geez. So it is not just the root but the complete tree. Am I right?</p>
+
+<p><em>I</em>: Yes that is correct.</p>
+
+<p><em>C</em>: Ok. Let me think about it.</p>
+
+<p><strong><em>(After 2 mins)</em></strong></p>
+
+<p><em>C</em>: I think I got it. So basically I need to do the same algorithm I wrote for the whole tree. Am I right?</p>
+
+<p><em>I</em>: Yes, but how do you do that?</p>
+
+<p><em>C</em>: <strong><em>(Starts writing Code)</em></strong></p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">invert</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+  <span class="n">invert</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">left</span><span class="p">)</span>
+  <span class="n">invert</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">right</span><span class="p">)</span>
+  <span class="n">t</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">left</span> 
+  <span class="n">node</span><span class="p">.</span><span class="nf">left</span> <span class="o">=</span> <span class="n">node</span><span class="p">.</span><span class="nf">right</span>
+  <span class="n">node</span><span class="p">.</span><span class="nf">right</span> <span class="o">=</span> <span class="n">t</span>
+  <span class="k">return</span> <span class="n">node</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>So I am <strong>guessing</strong> this should work.</p>
+
+<p><em>I</em>: Hmmm, let me see. <strong><em>(Finds the issue. Can you?)</em></strong> I am not sure if it works. Can you please run me through it?</p>
+
+<p><em>C</em>: Sure. First I am inverting the left subtree, then the right subtree and then I am swapping them so that root is inverted.</p>
+
+<p><em>I</em>: Hmmm. But the left and right nodes are returning new nodes after the swap right? You are still swapping the old nodes.</p>
+
+<p><em>C</em>: I am not sure what you mean by that. I think this <strong>will</strong> work for all cases.</p>
+
+<p><em>I</em>: Great man! We have run out of time. Thanks for your time, it was lovely talking to you. HR will get back to you.</p>
+
+<h2 id="feedback">Feedback</h2>
+<p>Now, what do you think was the final decision and what was the interviewer’s feedback? The hypothetical feedback would be something along these lines:</p>
+
+<ul>
+  <li>The candidate assumed a lot of things and did not clarify the problem.</li>
+  <li>The candidate came up with the approach out of nowhere and there was no proper reasoning behind the approach taken. (Remember the silence in the interview?)</li>
+  <li>The candidate was not clear with the requirements even in the implementation stage.</li>
+  <li>The candidate struggled with the implementation and he was not able to pick up hints pointing towards the solution.</li>
+  <li>The candidate failed to identify the bugs in code, even after providing enough time and probing to check if the solution is correct.</li>
+</ul>
+
+<p>If this were an actual interview, the candidate would have been rejected. Now how should the ideal interview go?</p>
+
+<h2 id="second-interview">Second interview</h2>
+<p><em>Interviewer (I)</em>: Hi, Welcome to our company. I am xxx doing yyy. So tell me about yourself.</p>
+
+<p><em>Candidate (C)</em> : I am xxx. I have about 5 years of experience in Backend development. I love solving technical problems…..</p>
+
+<p><em>I</em>: That’s great. So shall we move on to the problem-solving part?</p>
+
+<p><em>C</em>: Sure!</p>
+
+<p><em>I</em>: So you are given a binary tree. I want you to invert the binary tree and print the resulting tree.</p>
+
+<p><em>C</em>: <strong><em>(Thinking out loud)</em></strong> Cool. So a binary tree has two nodes. So what exactly is inverting? is it swapping the left and right?</p>
+
+<p><em>I</em>: Exactly. So left node should be on the right and vice versa.</p>
+
+<p><em>C</em>: Ok. So in this case what happens?</p>
+
+<p><strong><em>Provides an example and clarifies input and output</em></strong></p>
+
+<p><em>I</em>: You are correct to some extent. But this should happen for the whole tree, not just the root alone.<strong><em>(Notice how early the requirements were solidified)</em></strong></p>
+
+<p><em>C</em>: Oh got it! So I am thinking I need to do it recursively. Man, that’s tough! Let me see. But before that, I’ll just check my understanding by running through one more example.
+<em>Provides one more eg to clarify any missing pieces</em></p>
+
+<p><em>I</em>: Yes you are right. That’s the output. I think you got the problem completely. So how do you approach it?</p>
+
+<p><em>C</em>: Let me see. So to swap left and right, I can just use a temp. But then how will I do it for remaining? Oh ya, I could just recurse for the others and do the same.</p>
+
+<p><em>I</em>: Cool. Is there any problem with that approach?</p>
+
+<p><em>C</em>: Hmmm. Yes, if I just swap the left and right recursively, how will I track the old and new tree?</p>
+
+<p><em>I</em>: I am not sure I am following you. What is old and new?</p>
+
+<p><em>C</em>: What I meant is, there will be updated children, I need to swap them and not the old children.</p>
+
+<p><em>I</em>: Yes, correct.</p>
+
+<p><em>C</em>: Ya I can just call this function recursively for left and right and store those values in a variable. I could then update the tree with those variables. This way I can make sure the whole tree is inverted.</p>
+
+<p><em>I</em>: Cool. Anything else you are missing?</p>
+
+<p><em>C</em>: No I think. So it will take O(n) time and O(1) space as I don’t use any extra space.<strong><em>(Notice how proactively the candidate discusses time and space)</em></strong></p>
+
+<p><em>I</em>: I am fine. You can start coding.</p>
+
+<p><em>C</em>: Sure. <strong><em>(Talks through the code while coding)</em></strong></p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">invert</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+  <span class="n">l</span> <span class="o">=</span>   <span class="n">invert</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">left</span><span class="p">)</span>
+  <span class="n">r</span> <span class="o">=</span>  <span class="n">invert</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">right</span><span class="p">)</span>
+  <span class="n">t</span> <span class="o">=</span> <span class="n">l</span>
+  <span class="n">node</span><span class="p">.</span><span class="nf">left</span> <span class="o">=</span> <span class="n">r</span>
+  <span class="n">node</span><span class="p">.</span><span class="nf">right</span> <span class="o">=</span> <span class="n">l</span>
+  <span class="k">return</span> <span class="n">node</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p><em>C</em>: So I am done. Let me walk you through my code. So for a tree like …<strong><em>(Explains and dry runs with an example)</em></strong></p>
+
+<p><em>I</em>: I guess you are right. Does it work for all cases?</p>
+
+<p><em>C</em>: Hmmm. I guess I’ll get Null pointer exception for an empty tree. Let me fix that by adding a null check.</p>
+
+<p><em>I</em>: Now it looks good. Anything else you are missing.</p>
+
+<p><em>C</em>: No, I think other things I have covered like no leaves, one leaf, etc.<strong><em>(Notice how he calls out each case he considered)</em></strong></p>
+
+<p><em>I</em>: Cool. I am good. Any questions? :)</p>
+
+<h2 id="feedback-1">Feedback</h2>
+<p>So what do you think about this interview?</p>
+<ul>
+  <li>The candidate clarified the requirements before starting implementation.</li>
+  <li>The candidate also froze the requirements by running through a few examples and clarifying his understanding.</li>
+  <li>The candidate came up with a working solution without any probing.</li>
+  <li>The candidate proactively discussed the time and space complexities.</li>
+  <li>While coding, the candidate had a clear vision of what he was doing and where he was going.</li>
+  <li>The candidate had a bug in his code, and when asked to check for errors, he found the error and rectified it themselves.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Interviewing is a completely different skill from coding. Even though you are good at problem-solving, the interview is a setting where the interviewer is trying to decide between hiring you or not. So in addition to coding, you also need to understand the interviewer’s perspective so that you make it easy for him to hire you. In this article, I wanted to compare and contrast a good interview vs a mediocre one. Try to practice interview skills separately as the more you practice the better you get at it. You can <a href="https://kaizencoder.com/about">reach out</a> to me if you need help taking mock interviews.</p>
+
+                <hr>
+                <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://gmail.us3.list-manage.com/subscribe/post?u=073138338fe706b35ba693096&amp;id=8d6a91ef8a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Please subscribe to get more articles like this!</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_073138338fe706b35ba693096_8d6a91ef8a" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+<!--                 <div class="clearfix">
+                    
+                    <a class="btn btn-primary float-left" href="/2019/05/26/occams-razor-in-software-development.html" data-toggle="tooltip" data-placement="top" title="Occam's Razor in Software Development">&larr; Previous<span class="d-none d-md-inline">
+                            Post</span></a>
+                    
+                    
+                </div> -->
+            </div>
+            <div class="col-md-1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style type="text/css">
+    .share-box a {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 1px #777;
+  box-shadow: 0 0 1px #777;
+  padding: 5px 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-decoration: none; }
+  .share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; }
+
+.f {
+  color: #3b5998; }
+  .f:hover {
+    color: #fff;
+    background-color: #3b5998; }
+
+.t {
+  color: #4099FF; }
+  .t:hover {
+    color: #fff;
+    background-color: #4099FF; }
+
+.g {
+  color: #d34836; }
+  .g:hover {
+    color: #fff;
+    background-color: #d34836; }
+
+.r {
+  color: #ff5700; }
+  .r:hover {
+    color: #fff;
+    background-color: #ff5700; }
+
+.l {
+  color: #0077b5; }
+  .l:hover {
+    color: #fff;
+    background-color: #0077b5; }
+
+.e {
+  color: #444444; }
+  .e:hover {
+    color: #fff;
+    background-color: #444444; }
+</style>
+
+<div class="share-box" style="top:0;position: sticky;">
+
+<div class="row">
+<a class="t" href="https://twitter.com/intent/tweet?text=&url=http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"></i><span> </span></a>
+  
+</div>
+
+
+<!-- <a class="g" href="https://plus.google.com/share?url=http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html" onclick="window.open(this.href, 'mywin', -->
+<!-- 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa"></i><span> google</span></a> -->
+
+<!-- <a class="r" href="http://www.reddit.com/submit?url=http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html" onclick="window.open(this.href, 'mywin', -->
+<!-- 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-reddit fa"></i><span> reddit</span></a> -->
+<div class="row">
+<a class="l" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa"></i><span> </span></a>  
+</div>
+
+<div class="fb-share-button row" data-href="http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html" data-layout="button_count" data-size="small">
+  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share
+</a>
+</div>
+<!-- <a class="e" href="mailto:?subject=&amp;body=Check out this site http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html"><i class="fa fa-envelope fa"></i><span> email</span></a>                           -->
+</div>
+            </div>
+            
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            
+              <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = "http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://kaizencoder.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+            
+          </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <!-- <div class="row"> -->
+      <div class="text-center col-lg-8 col-md-10 mx-auto">
+      
+  Get in touch!
+</div>
+    <!-- </div> -->
+    
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.twitter.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/srinivasan.chandramouli.7">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.linkedin.com/in/srinivasanchandramouli">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/karthickpdy">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Srinivasan 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=127500180689577&autoLogAppEvents=1"></script>
+<script src="/assets/scripts.js"></script>
+
+
+  </body>
+
+</html>

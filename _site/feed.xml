@@ -1,15 +1,193 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-15T21:05:59+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kaizen Coder</title><subtitle>Become a better developer, day by day!</subtitle><author><name>Srinivasan</name></author><entry><title type="html">Architectural Intertia</title><link href="http://localhost:4000/2019/06/25/architectural-intertia.html" rel="alternate" type="text/html" title="Architectural Intertia" /><published>2019-06-25T00:00:00+05:30</published><updated>2019-06-25T00:00:00+05:30</updated><id>http://localhost:4000/2019/06/25/architectural-intertia</id><content type="html" xml:base="http://localhost:4000/2019/06/25/architectural-intertia.html">&lt;p&gt;When Sir Isaac Newton coined the term inertia in Principia Mathematicia, he applied it only to physical objects that he observed in the universe. As per Newton’s First law Inertia is defined as follows&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Isaac Newton’s first law of motion states that—unless the body is acted upon by some force—a body in motion tends to remain in motion and a body at rest tends to remain at rest.&lt;/p&gt;
-&lt;/blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-05T21:36:59+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kaizen Coder</title><subtitle>Become a better developer, day by day!</subtitle><author><name>Srinivasan</name></author><entry><title type="html">Behind the scenes of coding interviews - good vs bad!</title><link href="http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html" rel="alternate" type="text/html" title="Behind the scenes of coding interviews - good vs bad!" /><published>2019-08-05T00:00:00+05:30</published><updated>2019-08-05T00:00:00+05:30</updated><id>http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad</id><content type="html" xml:base="http://localhost:4000/2019/08/05/behind-the-scenes-of-coding-interviews-good-vs-bad.html">&lt;p&gt;Interviewing is a skill in and of itself. You can be the best developer in the world but you may still screw up an interview.&lt;/p&gt;
 
-&lt;p&gt;This law is extremely popular and so profound that it is applied in a variety of scenarios in physics to understand the motion of different objects. 
-What if we can apply the concept of intertia to software development? Does it make sense?&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.&lt;/p&gt;&amp;mdash; Max Howell (@mxcl) &lt;a href=&quot;https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw&quot;&gt;June 10, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;The answer is an overwhelming &lt;strong&gt;Yes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;How many times have you come out of an interview and wondered what did I do wrong? Why did they reject me? As a candidate, it helps a lot to understand the expectations in an interview. In this article, I want to show every aspiring candidate the difference between a good and a bad interview and how it is perceived by the interviewer. We will compare and contrast two different interviews and learn from each of them so that you can tweak your actions to match the expectations.&lt;/p&gt;
 
-&lt;p&gt;Coding
-Testing&lt;/p&gt;</content><author><name>Srinivasan</name></author><summary type="html">When Sir Isaac Newton coined the term inertia in Principia Mathematicia, he applied it only to physical objects that he observed in the universe. As per Newton’s First law Inertia is defined as follows Isaac Newton’s first law of motion states that—unless the body is acted upon by some force—a body in motion tends to remain in motion and a body at rest tends to remain at rest.</summary></entry><entry><title type="html">Occam’s Razor in Software Development</title><link href="http://localhost:4000/2019/05/26/occams-razor-in-software-development.html" rel="alternate" type="text/html" title="Occam's Razor in Software Development" /><published>2019-05-26T00:00:00+05:30</published><updated>2019-05-26T00:00:00+05:30</updated><id>http://localhost:4000/2019/05/26/occams-razor-in-software-development</id><content type="html" xml:base="http://localhost:4000/2019/05/26/occams-razor-in-software-development.html">&lt;p&gt;Recently I attended a meeting with multiple stakeholders from the business side. When asked to explain about a feature, I started explaining them the details of the feature and its implementation. After the meeting one of my colleagues told me eventhough I explained it in detail, they will be requesting a follow up meeting to discuss the same thing and it was true - the next day we had a meeting invite for the same thing as a follow up. He explained me that the reason was  I had provided them more details than necessary which probably confused them.  This incident led me to the principle of Occam’s Razor.&lt;/p&gt;
+&lt;h2 id=&quot;first-interview&quot;&gt;First Interview&lt;/h2&gt;
+&lt;p&gt;Let me take the same question above “Inverting a binary tree”.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Interviewer (I)&lt;/em&gt;: Hi, Welcome to our company. I am xxx doing yyy. So tell me about yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Candidate (C)&lt;/em&gt; : I am xxx. I have about 5 years of experience in Backend development. I love solving technical problems…..&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: That’s great. So shall we move on to the problem-solving part?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Sure!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: So you are given a binary tree. I want you to invert the binary tree and print the resulting tree.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: &lt;strong&gt;&lt;em&gt;(Thinking in the head)&lt;/em&gt;&lt;/strong&gt; Hmmm Ok. A binary tree has two children. So I am assuming inverting means printing from leaf to root. So the easiest way to do that is to traverse the tree till the end and find the leaves…&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: &lt;strong&gt;&lt;em&gt;(After 5 mins of complete silence)&lt;/em&gt;&lt;/strong&gt;  Do you understand the question? Do you need any clarification?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: I am &lt;strong&gt;clear&lt;/strong&gt;. Now I am just thinking of a way to print the nodes starting from the leaf.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: What do you mean to print the nodes starting from the leaf?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: So basically I should print from leaf to root right? It is easy to traverse until the leaf. But the hard part is traversing back?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Hmmm. Are you sure you understand the question right? Inverting a tree means you should &lt;strong&gt;swap the left and right children&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Sorry I am not clear. When you said invert I &lt;strong&gt;assumed&lt;/strong&gt; you meant printing from leaf to root.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: That’s alright &lt;strong&gt;&lt;em&gt;(This is where you lost the job)&lt;/em&gt;&lt;/strong&gt;. Now that you are clear let’s proceed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Yes I am clear. So now I have to swap the left and right nodes. That’s easy right.
+&lt;strong&gt;&lt;em&gt;(Writes code in silence)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;invert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;left&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;right&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: I am done with the code.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Cool. So what have you done here?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: I have inverted the tree by swapping the left and right nodes. So I keep a temp variable to achieve the same.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: &lt;strong&gt;&lt;em&gt;(Trying to nudge towards a proper solution)&lt;/em&gt;&lt;/strong&gt; But this swaps only the root node right?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;:&lt;strong&gt;&lt;em&gt;(Puzzled)&lt;/em&gt;&lt;/strong&gt; Hmm yes, so the left and right children will be inverted. That’s the question right?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: &lt;strong&gt;&lt;em&gt;(Still there is no clarity in question)&lt;/em&gt;&lt;/strong&gt; So the question is the complete tree should be inverted. Not just the root.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Oh geez. So it is not just the root but the complete tree. Am I right?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Yes that is correct.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Ok. Let me think about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;(After 2 mins)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: I think I got it. So basically I need to do the same algorithm I wrote for the whole tree. Am I right?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Yes, but how do you do that?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: &lt;strong&gt;&lt;em&gt;(Starts writing Code)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;invert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;invert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;invert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;left&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;right&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So I am &lt;strong&gt;guessing&lt;/strong&gt; this should work.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Hmmm, let me see. &lt;strong&gt;&lt;em&gt;(Finds the issue. Can you?)&lt;/em&gt;&lt;/strong&gt; I am not sure if it works. Can you please run me through it?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Sure. First I am inverting the left subtree, then the right subtree and then I am swapping them so that root is inverted.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Hmmm. But the left and right nodes are returning new nodes after the swap right? You are still swapping the old nodes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: I am not sure what you mean by that. I think this &lt;strong&gt;will&lt;/strong&gt; work for all cases.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Great man! We have run out of time. Thanks for your time, it was lovely talking to you. HR will get back to you.&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;Now, what do you think was the final decision and what was the interviewer’s feedback? The hypothetical feedback would be something along these lines:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The candidate assumed a lot of things and did not clarify the problem.&lt;/li&gt;
+  &lt;li&gt;The candidate came up with the approach out of nowhere and there was no proper reasoning behind the approach taken. (Remember the silence in the interview?)&lt;/li&gt;
+  &lt;li&gt;The candidate was not clear with the requirements even in the implementation stage.&lt;/li&gt;
+  &lt;li&gt;The candidate struggled with the implementation and he was not able to pick up hints pointing towards the solution.&lt;/li&gt;
+  &lt;li&gt;The candidate failed to identify the bugs in code, even after providing enough time and probing to check if the solution is correct.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If this were an actual interview, the candidate would have been rejected. Now how should the ideal interview go?&lt;/p&gt;
+
+&lt;h2 id=&quot;second-interview&quot;&gt;Second interview&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Interviewer (I)&lt;/em&gt;: Hi, Welcome to our company. I am xxx doing yyy. So tell me about yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Candidate (C)&lt;/em&gt; : I am xxx. I have about 5 years of experience in Backend development. I love solving technical problems…..&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: That’s great. So shall we move on to the problem-solving part?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Sure!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: So you are given a binary tree. I want you to invert the binary tree and print the resulting tree.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: &lt;strong&gt;&lt;em&gt;(Thinking out loud)&lt;/em&gt;&lt;/strong&gt; Cool. So a binary tree has two nodes. So what exactly is inverting? is it swapping the left and right?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Exactly. So left node should be on the right and vice versa.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Ok. So in this case what happens?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Provides an example and clarifies input and output&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: You are correct to some extent. But this should happen for the whole tree, not just the root alone.&lt;strong&gt;&lt;em&gt;(Notice how early the requirements were solidified)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Oh got it! So I am thinking I need to do it recursively. Man, that’s tough! Let me see. But before that, I’ll just check my understanding by running through one more example.
+&lt;em&gt;Provides one more eg to clarify any missing pieces&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Yes you are right. That’s the output. I think you got the problem completely. So how do you approach it?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Let me see. So to swap left and right, I can just use a temp. But then how will I do it for remaining? Oh ya, I could just recurse for the others and do the same.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Cool. Is there any problem with that approach?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Hmmm. Yes, if I just swap the left and right recursively, how will I track the old and new tree?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: I am not sure I am following you. What is old and new?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: What I meant is, there will be updated children, I need to swap them and not the old children.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Yes, correct.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Ya I can just call this function recursively for left and right and store those values in a variable. I could then update the tree with those variables. This way I can make sure the whole tree is inverted.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Cool. Anything else you are missing?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: No I think. So it will take O(n) time and O(1) space as I don’t use any extra space.&lt;strong&gt;&lt;em&gt;(Notice how proactively the candidate discusses time and space)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: I am fine. You can start coding.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Sure. &lt;strong&gt;&lt;em&gt;(Talks through the code while coding)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;invert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;invert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;invert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: So I am done. Let me walk you through my code. So for a tree like …&lt;strong&gt;&lt;em&gt;(Explains and dry runs with an example)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: I guess you are right. Does it work for all cases?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: Hmmm. I guess I’ll get Null pointer exception for an empty tree. Let me fix that by adding a null check.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Now it looks good. Anything else you are missing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;C&lt;/em&gt;: No, I think other things I have covered like no leaves, one leaf, etc.&lt;strong&gt;&lt;em&gt;(Notice how he calls out each case he considered)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&lt;/em&gt;: Cool. I am good. Any questions? :)&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback-1&quot;&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;So what do you think about this interview?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The candidate clarified the requirements before starting implementation.&lt;/li&gt;
+  &lt;li&gt;The candidate also froze the requirements by running through a few examples and clarifying his understanding.&lt;/li&gt;
+  &lt;li&gt;The candidate came up with a working solution without any probing.&lt;/li&gt;
+  &lt;li&gt;The candidate proactively discussed the time and space complexities.&lt;/li&gt;
+  &lt;li&gt;While coding, the candidate had a clear vision of what he was doing and where he was going.&lt;/li&gt;
+  &lt;li&gt;The candidate had a bug in his code, and when asked to check for errors, he found the error and rectified it themselves.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Interviewing is a completely different skill from coding. Even though you are good at problem-solving, the interview is a setting where the interviewer is trying to decide between hiring you or not. So in addition to coding, you also need to understand the interviewer’s perspective so that you make it easy for him to hire you. In this article, I wanted to compare and contrast a good interview vs a mediocre one. Try to practice interview skills separately as the more you practice the better you get at it. You can &lt;a href=&quot;https://kaizencoder.com/about&quot;&gt;reach out&lt;/a&gt; to me if you need help taking mock interviews.&lt;/p&gt;</content><author><name>Srinivasan</name></author><category term="[coding" /><category term="interview]" /><summary type="html">Interviewing is a skill in and of itself. You can be the best developer in the world but you may still screw up an interview.</summary></entry><entry><title type="html">Occam’s Razor in Software Development</title><link href="http://localhost:4000/2019/05/26/occams-razor-in-software-development.html" rel="alternate" type="text/html" title="Occam's Razor in Software Development" /><published>2019-05-26T00:00:00+05:30</published><updated>2019-05-26T00:00:00+05:30</updated><id>http://localhost:4000/2019/05/26/occams-razor-in-software-development</id><content type="html" xml:base="http://localhost:4000/2019/05/26/occams-razor-in-software-development.html">&lt;p&gt;Recently I attended a meeting with multiple stakeholders from the business side. When asked to explain about a feature, I started explaining them the details of the feature and its implementation. After the meeting one of my colleagues told me eventhough I explained it in detail, they will be requesting a follow up meeting to discuss the same thing and it was true - the next day we had a meeting invite for the same thing as a follow up. He explained me that the reason was  I had provided them more details than necessary which probably confused them.  This incident led me to the principle of Occam’s Razor.&lt;/p&gt;
 &lt;h1 id=&quot;what-is-occams-razor&quot;&gt;What is Occam’s Razor?&lt;/h1&gt;
 &lt;p&gt;Quoted from Wikipedia&lt;/p&gt;
 &lt;blockquote&gt;
