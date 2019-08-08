@@ -83,8 +83,8 @@ def invert(node)
   n = Node.new(node.val)
   invert(node.left)
   invert(node.right)
-  n.left = node.left
-  n.right = node.right
+  n.left = node.right
+  n.right = node.left
   return n
 end
 ```
@@ -162,11 +162,9 @@ If this were an actual interview, the candidate would have been rejected. Now ho
 
 ```ruby
 def invert(node)
-  l =   invert(node.left)
-  r =  invert(node.right)
-  t = l
-  node.left = r
-  node.right = l
+  invert(node.left)
+  invert(node.right)
+  node.left,node.right = node.right, node.left 
   return node
 end
 ```
