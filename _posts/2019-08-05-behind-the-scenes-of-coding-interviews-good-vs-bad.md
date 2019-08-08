@@ -80,12 +80,12 @@ end
 
 ```ruby
 def invert(node)
+  n = Node.new(node.val)
   invert(node.left)
   invert(node.right)
-  t = node.left 
-  node.left = node.right
-  node.right = t
-  return node
+  n.left = node.left
+  n.right = node.right
+  return n
 end
 ```
 
